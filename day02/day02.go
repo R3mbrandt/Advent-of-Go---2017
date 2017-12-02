@@ -31,6 +31,7 @@ func ReadInput(filename string) [][]int {
 		fmt.Print(err)
 		panic("File Error")
 	}
+	defer fn.Close()
 
 	scanner := bufio.NewScanner(fn)
 	for scanner.Scan() {
