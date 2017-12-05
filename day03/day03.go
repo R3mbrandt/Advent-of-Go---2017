@@ -21,7 +21,8 @@ const target = 347991
 var dimension = int(math.Sqrt(target)) + 2
 var dirs = [...]int{right, up, left, down, rightUp, leftDown, leftUp, rightDown}
 
-func move(x, y, dir int) (int, int) {
+// move moves "x,y" values in direction "dir" and returns the new position
+func move(x, y, dir int) (int, int) { // Quite unhappy with this part!
 	switch dir {
 	case right:
 		x++
@@ -59,7 +60,7 @@ func sumNeighboors(x, y int, grid [][]int) int {
 }
 
 func main() {
-	grid := make([][]int, dimension)
+	grid := make([][]int, dimension) // Quite unhappy with this part, too!
 	for i := 0; i < dimension; i++ {
 		grid[i] = make([]int, dimension)
 	}
