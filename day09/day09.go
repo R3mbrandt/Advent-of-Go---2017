@@ -8,8 +8,7 @@ import (
 )
 
 //ReadInput reads line by line from filename and returns a single string
-func ReadInput(filename string) string {
-	var out string
+func ReadInput(filename string) (out string) {
 	fn, err := os.Open(filename) // open "filename" and panics at any error
 	if err != nil {
 		panic("File Error: " + err.Error())
@@ -21,39 +20,34 @@ func ReadInput(filename string) string {
 		out += scanner.Text() // reads one line of the file as string and appends to the string
 
 	}
-	return out
+	return
 }
 
 func main() {
 	var inGarbage = false
+	var esc = false
 	var score, level, garbageCount int
-	var cleanStream []string
 
 	input := strings.Split(ReadInput("input_day09.txt"), "")
 
-	for i := 0; i < len(input); i++ {
-		char := input[i]
-		if char == "!" {
-			i++
-		} else if char == "<" {
-			inGarbage = true
-		} else if inGarbage {
-			if char == ">" {
+	for _, char := range input {
+		if inGarbage {
+			if esc {
+				esc = false
+			} else if char == ">" {
 				inGarbage = false
+			} else if char == "!" {
+				esc = true
 			} else {
 				garbageCount++
 			}
-		} else if char == "{" || char == "}" {
-			cleanStream = append(cleanStream, char)
-		}
-	}
-	for _, char := range cleanStream {
-		switch char {
-		case "{":
+		} else if char == "{" {
 			level++
 			score += level
-		case "}":
+		} else if char == "}" {
 			level--
+		} else if char == "<" {
+			inGarbage = true
 		}
 	}
 	fmt.Println("Part 1:", score)
