@@ -11,3 +11,6 @@ There are also some publications at Medium:
 * [Day 05](https://medium.com/@s_r/advent-of-go-day-5-1618e83938fd)
 * [Day 06](https://medium.com/@s_r/advent-of-go-day-6-9de6ad533ba0)
 * [Day 07](https://medium.com/@s_r/advent-of-go-day-7-e603189e190a)
+* [Day 08](https://medium.com/@s_r/advent-of-go-day-8-539445186)
+* [Day 09](https://medium.com/@s_r/advent-of-go-day-9-4eb9d3a826fd)
+
