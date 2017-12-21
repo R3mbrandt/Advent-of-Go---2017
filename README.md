@@ -13,4 +13,7 @@ There are also some publications at Medium:
 * [Day 07](https://medium.com/@s_r/advent-of-go-day-7-e603189e190a)
 * [Day 08](https://medium.com/@s_r/advent-of-go-day-8-539445186)
 * [Day 09](https://medium.com/@s_r/advent-of-go-day-9-4eb9d3a826fd)
+* [Day 10](https://medium.com/@s_r/advent-of-code-day-10-f693dc554b64)
+* [Day 11](https://medium.com/@s_r/advent-of-code-day-11-545d8326320f)
+* [Day 12](https://medium.com/@s_r/advent-of-code-day-12-81d59456b96a)
 
