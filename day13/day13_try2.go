@@ -29,6 +29,7 @@ func ReadInput(filename string) map[int]int {
 	return out
 }
 
+//Max returns the maximum value of given array
 func Max(array []int) int {
 	var max = array[0]
 
