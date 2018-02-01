@@ -1,0 +1,3962 @@
+Instruction: set : i <- 31
+Set i to 31
+map[i:31]
+Instruction: set : a <- 1
+Set a to 1
+map[i:31 a:1]
+Instruction: mul : p <- 17
+Mul p and 17
+map[a:1 p:0 i:31]
+Instruction: jgz : p <- 0
+map[i:31 a:1 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:31 a:2 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:30 a:2 p:0]
+Instruction: jgz : i <- -2
+map[i:30 a:2 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[p:0 i:30 a:4]
+Instruction: add : i <- -1
+Add i and -1
+map[i:29 a:4 p:0]
+Instruction: jgz : i <- -2
+map[i:29 a:4 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:29 a:8 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:28 a:8 p:0]
+Instruction: jgz : i <- -2
+map[i:28 a:8 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[a:16 p:0 i:28]
+Instruction: add : i <- -1
+Add i and -1
+map[p:0 i:27 a:16]
+Instruction: jgz : i <- -2
+map[i:27 a:16 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:27 a:32 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:26 a:32 p:0]
+Instruction: jgz : i <- -2
+map[a:32 p:0 i:26]
+Instruction: mul : a <- 2
+Mul a and 2
+map[p:0 i:26 a:64]
+Instruction: add : i <- -1
+Add i and -1
+map[i:25 a:64 p:0]
+Instruction: jgz : i <- -2
+map[i:25 a:64 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[a:128 p:0 i:25]
+Instruction: add : i <- -1
+Add i and -1
+map[p:0 i:24 a:128]
+Instruction: jgz : i <- -2
+map[i:24 a:128 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:24 a:256 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:23 a:256 p:0]
+Instruction: jgz : i <- -2
+map[i:23 a:256 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:23 a:512 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:22 a:512 p:0]
+Instruction: jgz : i <- -2
+map[a:512 p:0 i:22]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:22 a:1024 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:21 a:1024 p:0]
+Instruction: jgz : i <- -2
+map[i:21 a:1024 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[p:0 i:21 a:2048]
+Instruction: add : i <- -1
+Add i and -1
+map[i:20 a:2048 p:0]
+Instruction: jgz : i <- -2
+map[a:2048 p:0 i:20]
+Instruction: mul : a <- 2
+Mul a and 2
+map[p:0 i:20 a:4096]
+Instruction: add : i <- -1
+Add i and -1
+map[i:19 a:4096 p:0]
+Instruction: jgz : i <- -2
+map[a:4096 p:0 i:19]
+Instruction: mul : a <- 2
+Mul a and 2
+map[p:0 i:19 a:8192]
+Instruction: add : i <- -1
+Add i and -1
+map[i:18 a:8192 p:0]
+Instruction: jgz : i <- -2
+map[i:18 a:8192 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[a:16384 p:0 i:18]
+Instruction: add : i <- -1
+Add i and -1
+map[i:17 a:16384 p:0]
+Instruction: jgz : i <- -2
+map[i:17 a:16384 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:17 a:32768 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[p:0 i:16 a:32768]
+Instruction: jgz : i <- -2
+map[i:16 a:32768 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[a:65536 p:0 i:16]
+Instruction: add : i <- -1
+Add i and -1
+map[p:0 i:15 a:65536]
+Instruction: jgz : i <- -2
+map[i:15 a:65536 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:15 a:131072 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:14 a:131072 p:0]
+Instruction: jgz : i <- -2
+map[a:131072 p:0 i:14]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:14 a:262144 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[p:0 i:13 a:262144]
+Instruction: jgz : i <- -2
+map[i:13 a:262144 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:13 a:524288 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[a:524288 p:0 i:12]
+Instruction: jgz : i <- -2
+map[i:12 a:524288 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[p:0 i:12 a:1048576]
+Instruction: add : i <- -1
+Add i and -1
+map[i:11 a:1048576 p:0]
+Instruction: jgz : i <- -2
+map[a:1048576 p:0 i:11]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:11 a:2097152 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[p:0 i:10 a:2097152]
+Instruction: jgz : i <- -2
+map[i:10 a:2097152 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:10 a:4194304 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:9 a:4194304 p:0]
+Instruction: jgz : i <- -2
+map[a:4194304 p:0 i:9]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:9 a:8388608 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:8 a:8388608 p:0]
+Instruction: jgz : i <- -2
+map[i:8 a:8388608 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:8 a:16777216 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:7 a:16777216 p:0]
+Instruction: jgz : i <- -2
+map[p:0 i:7 a:16777216]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:7 a:33554432 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:6 a:33554432 p:0]
+Instruction: jgz : i <- -2
+map[a:33554432 p:0 i:6]
+Instruction: mul : a <- 2
+Mul a and 2
+map[p:0 i:6 a:67108864]
+Instruction: add : i <- -1
+Add i and -1
+map[i:5 a:67108864 p:0]
+Instruction: jgz : i <- -2
+map[i:5 a:67108864 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:5 a:134217728 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:4 a:134217728 p:0]
+Instruction: jgz : i <- -2
+map[a:134217728 p:0 i:4]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:4 a:268435456 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:3 a:268435456 p:0]
+Instruction: jgz : i <- -2
+map[i:3 a:268435456 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:3 a:536870912 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:2 a:536870912 p:0]
+Instruction: jgz : i <- -2
+map[p:0 i:2 a:536870912]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:2 a:1073741824 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:1 a:1073741824 p:0]
+Instruction: jgz : i <- -2
+map[i:1 a:1073741824 p:0]
+Instruction: mul : a <- 2
+Mul a and 2
+map[i:1 a:2147483648 p:0]
+Instruction: add : i <- -1
+Add i and -1
+map[i:0 a:2147483648 p:0]
+Instruction: jgz : i <- -2
+map[a:2147483648 p:0 i:0]
+Instruction: add : a <- -1
+Add a and -1
+map[p:0 i:0 a:2147483647]
+Instruction: set : i <- 127
+Set i to 127
+map[i:127 a:2147483647 p:0]
+Instruction: set : p <- 952
+Set p to 952
+map[a:2147483647 p:952 i:127]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:8096760 i:127 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:127 a:2147483647 p:8096760]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:1050546513240 i:127]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:1050546525585 i:127 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:127 a:2147483647 p:427022202]
+Instruction: set : b <- 427022202
+Set b to 427022202
+map[i:127 a:2147483647 p:427022202 b:427022202]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:127 a:2147483647 p:427022202 b:2202]
+Instruction: snd : b <- 0
+Playing Sound 2202
+map[snd:2202 i:127 a:2147483647 p:427022202 b:2202]
+Instruction: add : i <- -1
+Add i and -1
+map[i:126 a:2147483647 p:427022202 b:2202 snd:2202]
+Instruction: jgz : i <- -9
+map[i:126 a:2147483647 p:427022202 b:2202 snd:2202]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:2202 snd:2202 i:126 a:2147483647 p:3631823828010]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:126 a:2147483647 p:428980933 b:2202 snd:2202]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:2202 i:126 a:2147483647 p:55659847075817 b:2202]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:126 a:2147483647 p:55659847088162 b:2202 snd:2202]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:126 a:2147483647 p:1365925216 b:2202 snd:2202]
+Instruction: set : b <- 1365925216
+Set b to 1365925216
+map[a:2147483647 p:1365925216 b:1365925216 snd:2202 i:126]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:126 a:2147483647 p:1365925216 b:5216 snd:2202]
+Instruction: snd : b <- 0
+Playing Sound 5216
+map[i:126 a:2147483647 p:1365925216 b:5216 snd:5216]
+Instruction: add : i <- -1
+Add i and -1
+map[i:125 a:2147483647 p:1365925216 b:5216 snd:5216]
+Instruction: jgz : i <- -9
+map[i:125 a:2147483647 p:1365925216 b:5216 snd:5216]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:125 a:2147483647 p:11617193962080 b:5216 snd:5216]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:125 a:2147483647 p:1454915457 b:5216 snd:5216]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:125 a:2147483647 p:188773825630293 b:5216 snd:5216]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:188773825642638 b:5216 snd:5216 i:125 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:5216 snd:5216 i:125 a:2147483647 p:1423136750]
+Instruction: set : b <- 1423136750
+Set b to 1423136750
+map[a:2147483647 p:1423136750 b:1423136750 snd:5216 i:125]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:1423136750 b:6750 snd:5216 i:125 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 6750
+map[b:6750 snd:6750 i:125 a:2147483647 p:1423136750]
+Instruction: add : i <- -1
+Add i and -1
+map[i:124 a:2147483647 p:1423136750 b:6750 snd:6750]
+Instruction: jgz : i <- -9
+map[b:6750 snd:6750 i:124 a:2147483647 p:1423136750]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:124 a:2147483647 p:12103778058750 b:6750 snd:6750]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:6750 snd:6750 i:124 a:2147483647 p:560224258]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:72688537251242 b:6750 snd:6750 i:124]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:72688537263587 b:6750 snd:6750 i:124 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:6750 i:124 a:2147483647 p:510779931 b:6750]
+Instruction: set : b <- 510779931
+Set b to 510779931
+map[i:124 a:2147483647 p:510779931 b:510779931 snd:6750]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:124 a:2147483647 p:510779931 b:9931 snd:6750]
+Instruction: snd : b <- 0
+Playing Sound 9931
+map[b:9931 snd:9931 i:124 a:2147483647 p:510779931]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:510779931 b:9931 snd:9931 i:123]
+Instruction: jgz : i <- -9
+map[p:510779931 b:9931 snd:9931 i:123 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:9931 snd:9931 i:123 a:2147483647 p:4344183313155]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1971378921 b:9931 snd:9931 i:123]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:123 a:2147483647 p:255784443620829 b:9931 snd:9931]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:255784443633174 b:9931 snd:9931 i:123 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:9931 snd:9931 i:123 a:2147483647 p:1961406298]
+Instruction: set : b <- 1961406298
+Set b to 1961406298
+map[i:123 a:2147483647 p:1961406298 b:1961406298 snd:9931]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:9931 i:123 a:2147483647 p:1961406298 b:6298]
+Instruction: snd : b <- 0
+Playing Sound 6298
+map[i:123 a:2147483647 p:1961406298 b:6298 snd:6298]
+Instruction: add : i <- -1
+Add i and -1
+map[i:122 a:2147483647 p:1961406298 b:6298 snd:6298]
+Instruction: jgz : i <- -9
+map[i:122 a:2147483647 p:1961406298 b:6298 snd:6298]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:122 a:2147483647 p:16681760564490 b:6298 snd:6298]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:122 a:2147483647 p:107594594 b:6298 snd:6298]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:13960290976906 b:6298 snd:6298 i:122]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:122 a:2147483647 p:13960290989251 b:6298 snd:6298]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:122 a:2147483647 p:1647283751 b:6298 snd:6298]
+Instruction: set : b <- 1647283751
+Set b to 1647283751
+map[p:1647283751 b:1647283751 snd:6298 i:122 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:6298 i:122 a:2147483647 p:1647283751 b:3751]
+Instruction: snd : b <- 0
+Playing Sound 3751
+map[i:122 a:2147483647 p:1647283751 b:3751 snd:3751]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:1647283751 b:3751 snd:3751 i:121]
+Instruction: jgz : i <- -9
+map[p:1647283751 b:3751 snd:3751 i:121 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:3751 snd:3751 i:121 a:2147483647 p:14010148302255]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:121 a:2147483647 p:2112472874 b:3751 snd:3751]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:3751 i:121 a:2147483647 p:274091242928626 b:3751]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:121 a:2147483647 p:274091242940971 b:3751 snd:3751]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:121 a:2147483647 p:1462623420 b:3751 snd:3751]
+Instruction: set : b <- 1462623420
+Set b to 1462623420
+map[i:121 a:2147483647 p:1462623420 b:1462623420 snd:3751]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:3420 snd:3751 i:121 a:2147483647 p:1462623420]
+Instruction: snd : b <- 0
+Playing Sound 3420
+map[a:2147483647 p:1462623420 b:3420 snd:3420 i:121]
+Instruction: add : i <- -1
+Add i and -1
+map[p:1462623420 b:3420 snd:3420 i:120 a:2147483647]
+Instruction: jgz : i <- -9
+map[b:3420 snd:3420 i:120 a:2147483647 p:1462623420]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:120 a:2147483647 p:12439612187100 b:3420 snd:3420]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:3420 snd:3420 i:120 a:2147483647 p:1386903676]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:179949365057324 b:3420 snd:3420 i:120]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:179949365069669 b:3420 snd:3420 i:120 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:3420 i:120 a:2147483647 p:972869304 b:3420]
+Instruction: set : b <- 972869304
+Set b to 972869304
+map[i:120 a:2147483647 p:972869304 b:972869304 snd:3420]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:972869304 b:9304 snd:3420 i:120]
+Instruction: snd : b <- 0
+Playing Sound 9304
+map[i:120 a:2147483647 p:972869304 b:9304 snd:9304]
+Instruction: add : i <- -1
+Add i and -1
+map[i:119 a:2147483647 p:972869304 b:9304 snd:9304]
+Instruction: jgz : i <- -9
+map[p:972869304 b:9304 snd:9304 i:119 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:9304 snd:9304 i:119 a:2147483647 p:8274253430520]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:119 a:2147483647 p:2146422276 b:9304 snd:9304]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:9304 snd:9304 i:119 a:2147483647 p:278496143888724]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:278496143901069 b:9304 snd:9304 i:119]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:119 a:2147483647 p:1874623521 b:9304 snd:9304]
+Instruction: set : b <- 1874623521
+Set b to 1874623521
+map[p:1874623521 b:1874623521 snd:9304 i:119 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:3521 snd:9304 i:119 a:2147483647 p:1874623521]
+Instruction: snd : b <- 0
+Playing Sound 3521
+map[a:2147483647 p:1874623521 b:3521 snd:3521 i:119]
+Instruction: add : i <- -1
+Add i and -1
+map[p:1874623521 b:3521 snd:3521 i:118 a:2147483647]
+Instruction: jgz : i <- -9
+map[b:3521 snd:3521 i:118 a:2147483647 p:1874623521]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:118 a:2147483647 p:15943673046105 b:3521 snd:3521]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:3521 snd:3521 i:118 a:2147483647 p:754450777]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:118 a:2147483647 p:97889233864973 b:3521 snd:3521]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:3521 i:118 a:2147483647 p:97889233877318 b:3521]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:118 a:2147483647 p:486796117 b:3521 snd:3521]
+Instruction: set : b <- 486796117
+Set b to 486796117
+map[i:118 a:2147483647 p:486796117 b:486796117 snd:3521]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:118 a:2147483647 p:486796117 b:6117 snd:3521]
+Instruction: snd : b <- 0
+Playing Sound 6117
+map[snd:6117 i:118 a:2147483647 p:486796117 b:6117]
+Instruction: add : i <- -1
+Add i and -1
+map[i:117 a:2147483647 p:486796117 b:6117 snd:6117]
+Instruction: jgz : i <- -9
+map[i:117 a:2147483647 p:486796117 b:6117 snd:6117]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:117 a:2147483647 p:4140200975085 b:6117 snd:6117]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1999987316 b:6117 snd:6117 i:117]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:259496354263684 b:6117 snd:6117 i:117 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:6117 snd:6117 i:117 a:2147483647 p:259496354276029]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:872823490 b:6117 snd:6117 i:117]
+Instruction: set : b <- 872823490
+Set b to 872823490
+map[i:117 a:2147483647 p:872823490 b:872823490 snd:6117]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:872823490 b:3490 snd:6117 i:117 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 3490
+map[b:3490 snd:3490 i:117 a:2147483647 p:872823490]
+Instruction: add : i <- -1
+Add i and -1
+map[i:116 a:2147483647 p:872823490 b:3490 snd:3490]
+Instruction: jgz : i <- -9
+map[snd:3490 i:116 a:2147483647 p:872823490 b:3490]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:116 a:2147483647 p:7423363782450 b:3490 snd:3490]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:116 a:2147483647 p:1660298418 b:3490 snd:3490]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:3490 i:116 a:2147483647 p:215422059437082 b:3490]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:116 a:2147483647 p:215422059449427 b:3490 snd:3490]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1532367916 b:3490 snd:3490 i:116]
+Instruction: set : b <- 1532367916
+Set b to 1532367916
+map[p:1532367916 b:1532367916 snd:3490 i:116 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:7916 snd:3490 i:116 a:2147483647 p:1532367916]
+Instruction: snd : b <- 0
+Playing Sound 7916
+map[i:116 a:2147483647 p:1532367916 b:7916 snd:7916]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:7916 i:115 a:2147483647 p:1532367916 b:7916]
+Instruction: jgz : i <- -9
+map[i:115 a:2147483647 p:1532367916 b:7916 snd:7916]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:115 a:2147483647 p:13032789125580 b:7916 snd:7916]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:7916 i:115 a:2147483647 p:1858355584 b:7916]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:115 a:2147483647 p:241119778668416 b:7916 snd:7916]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:115 a:2147483647 p:241119778680761 b:7916 snd:7916]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:7916 snd:7916 i:115 a:2147483647 p:314795601]
+Instruction: set : b <- 314795601
+Set b to 314795601
+map[a:2147483647 p:314795601 b:314795601 snd:7916 i:115]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:314795601 b:5601 snd:7916 i:115 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 5601
+map[b:5601 snd:5601 i:115 a:2147483647 p:314795601]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:314795601 b:5601 snd:5601 i:114]
+Instruction: jgz : i <- -9
+map[i:114 a:2147483647 p:314795601 b:5601 snd:5601]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:2677336586505 b:5601 snd:5601 i:114 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:5601 i:114 a:2147483647 p:1571962343 b:5601]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:114 a:2147483647 p:203960542041907 b:5601 snd:5601]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:203960542054252 b:5601 snd:5601 i:114]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1135196780 b:5601 snd:5601 i:114 a:2147483647]
+Instruction: set : b <- 1135196780
+Set b to 1135196780
+map[snd:5601 i:114 a:2147483647 p:1135196780 b:1135196780]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:114 a:2147483647 p:1135196780 b:6780 snd:5601]
+Instruction: snd : b <- 0
+Playing Sound 6780
+map[a:2147483647 p:1135196780 b:6780 snd:6780 i:114]
+Instruction: add : i <- -1
+Add i and -1
+map[i:113 a:2147483647 p:1135196780 b:6780 snd:6780]
+Instruction: jgz : i <- -9
+map[p:1135196780 b:6780 snd:6780 i:113 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[snd:6780 i:113 a:2147483647 p:9654848613900 b:6780]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:113 a:2147483647 p:1909620635 b:6780 snd:6780]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:247771367770615 b:6780 snd:6780 i:113]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:247771367782960 b:6780 snd:6780 i:113 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:6780 i:113 a:2147483647 p:1147043041 b:6780]
+Instruction: set : b <- 1147043041
+Set b to 1147043041
+map[i:113 a:2147483647 p:1147043041 b:1147043041 snd:6780]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:113 a:2147483647 p:1147043041 b:3041 snd:6780]
+Instruction: snd : b <- 0
+Playing Sound 3041
+map[a:2147483647 p:1147043041 b:3041 snd:3041 i:113]
+Instruction: add : i <- -1
+Add i and -1
+map[p:1147043041 b:3041 snd:3041 i:112 a:2147483647]
+Instruction: jgz : i <- -9
+map[snd:3041 i:112 a:2147483647 p:1147043041 b:3041]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:112 a:2147483647 p:9755601063705 b:3041 snd:3041]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:112 a:2147483647 p:1730339031 b:3041 snd:3041]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:112 a:2147483647 p:224509758933219 b:3041 snd:3041]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:3041 i:112 a:2147483647 p:224509758945564 b:3041]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:112 a:2147483647 p:1081069949 b:3041 snd:3041]
+Instruction: set : b <- 1081069949
+Set b to 1081069949
+map[i:112 a:2147483647 p:1081069949 b:1081069949 snd:3041]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:9949 snd:3041 i:112 a:2147483647 p:1081069949]
+Instruction: snd : b <- 0
+Playing Sound 9949
+map[a:2147483647 p:1081069949 b:9949 snd:9949 i:112]
+Instruction: add : i <- -1
+Add i and -1
+map[i:111 a:2147483647 p:1081069949 b:9949 snd:9949]
+Instruction: jgz : i <- -9
+map[i:111 a:2147483647 p:1081069949 b:9949 snd:9949]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:111 a:2147483647 p:9194499916245 b:9949 snd:9949]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:111 a:2147483647 p:1122423438 b:9949 snd:9949]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:145633318657062 b:9949 snd:9949 i:111 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:9949 snd:9949 i:111 a:2147483647 p:145633318669407]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1715148102 b:9949 snd:9949 i:111]
+Instruction: set : b <- 1715148102
+Set b to 1715148102
+map[i:111 a:2147483647 p:1715148102 b:1715148102 snd:9949]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:111 a:2147483647 p:1715148102 b:8102 snd:9949]
+Instruction: snd : b <- 0
+Playing Sound 8102
+map[p:1715148102 b:8102 snd:8102 i:111 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[b:8102 snd:8102 i:110 a:2147483647 p:1715148102]
+Instruction: jgz : i <- -9
+map[i:110 a:2147483647 p:1715148102 b:8102 snd:8102]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[snd:8102 i:110 a:2147483647 p:14587334607510 b:8102]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:110 a:2147483647 p:1625677086 b:8102 snd:8102]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:110 a:2147483647 p:210929976231414 b:8102 snd:8102]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:8102 snd:8102 i:110 a:2147483647 p:210929976243759]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:110 a:2147483647 p:1984951772 b:8102 snd:8102]
+Instruction: set : b <- 1984951772
+Set b to 1984951772
+map[snd:8102 i:110 a:2147483647 p:1984951772 b:1984951772]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:110 a:2147483647 p:1984951772 b:1772 snd:8102]
+Instruction: snd : b <- 0
+Playing Sound 1772
+map[i:110 a:2147483647 p:1984951772 b:1772 snd:1772]
+Instruction: add : i <- -1
+Add i and -1
+map[i:109 a:2147483647 p:1984951772 b:1772 snd:1772]
+Instruction: jgz : i <- -9
+map[i:109 a:2147483647 p:1984951772 b:1772 snd:1772]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:109 a:2147483647 p:16882014820860 b:1772 snd:1772]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:645871793 b:1772 snd:1772 i:109]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:109 a:2147483647 p:83801219269957 b:1772 snd:1772]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:83801219282302 b:1772 snd:1772 i:109 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:1772 i:109 a:2147483647 p:2112409068 b:1772]
+Instruction: set : b <- 2112409068
+Set b to 2112409068
+map[i:109 a:2147483647 p:2112409068 b:2112409068 snd:1772]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:109 a:2147483647 p:2112409068 b:9068 snd:1772]
+Instruction: snd : b <- 0
+Playing Sound 9068
+map[i:109 a:2147483647 p:2112409068 b:9068 snd:9068]
+Instruction: add : i <- -1
+Add i and -1
+map[b:9068 snd:9068 i:108 a:2147483647 p:2112409068]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:2112409068 b:9068 snd:9068 i:108]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:108 a:2147483647 p:17966039123340 b:9068 snd:9068]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:108 a:2147483647 p:190932538 b:9068 snd:9068]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:24773305872962 b:9068 snd:9068 i:108 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:9068 snd:9068 i:108 a:2147483647 p:24773305885307]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:108 a:2147483647 p:2082017162 b:9068 snd:9068]
+Instruction: set : b <- 2082017162
+Set b to 2082017162
+map[b:2082017162 snd:9068 i:108 a:2147483647 p:2082017162]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:108 a:2147483647 p:2082017162 b:7162 snd:9068]
+Instruction: snd : b <- 0
+Playing Sound 7162
+map[snd:7162 i:108 a:2147483647 p:2082017162 b:7162]
+Instruction: add : i <- -1
+Add i and -1
+map[i:107 a:2147483647 p:2082017162 b:7162 snd:7162]
+Instruction: jgz : i <- -9
+map[i:107 a:2147483647 p:2082017162 b:7162 snd:7162]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:107 a:2147483647 p:17707555962810 b:7162 snd:7162]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:7162 snd:7162 i:107 a:2147483647 p:1553293295]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:107 a:2147483647 p:201538251732955 b:7162 snd:7162]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:7162 snd:7162 i:107 a:2147483647 p:201538251745300]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:107 a:2147483647 p:1206441644 b:7162 snd:7162]
+Instruction: set : b <- 1206441644
+Set b to 1206441644
+map[snd:7162 i:107 a:2147483647 p:1206441644 b:1206441644]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:107 a:2147483647 p:1206441644 b:1644 snd:7162]
+Instruction: snd : b <- 0
+Playing Sound 1644
+map[i:107 a:2147483647 p:1206441644 b:1644 snd:1644]
+Instruction: add : i <- -1
+Add i and -1
+map[i:106 a:2147483647 p:1206441644 b:1644 snd:1644]
+Instruction: jgz : i <- -9
+map[snd:1644 i:106 a:2147483647 p:1206441644 b:1644]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:106 a:2147483647 p:10260786182220 b:1644 snd:1644]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:106 a:2147483647 p:109316854 b:1644 snd:1644]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:1644 snd:1644 i:106 a:2147483647 p:14183752489646]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:106 a:2147483647 p:14183752501991 b:1644 snd:1644]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:1644 i:106 a:2147483647 p:1770497203 b:1644]
+Instruction: set : b <- 1770497203
+Set b to 1770497203
+map[i:106 a:2147483647 p:1770497203 b:1770497203 snd:1644]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:106 a:2147483647 p:1770497203 b:7203 snd:1644]
+Instruction: snd : b <- 0
+Playing Sound 7203
+map[snd:7203 i:106 a:2147483647 p:1770497203 b:7203]
+Instruction: add : i <- -1
+Add i and -1
+map[i:105 a:2147483647 p:1770497203 b:7203 snd:7203]
+Instruction: jgz : i <- -9
+map[i:105 a:2147483647 p:1770497203 b:7203 snd:7203]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:15058078711515 b:7203 snd:7203 i:105]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:105 a:2147483647 p:2070862398 b:7203 snd:7203]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:268692325278102 b:7203 snd:7203 i:105 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:7203 snd:7203 i:105 a:2147483647 p:268692325290447]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:105 a:2147483647 p:1318861454 b:7203 snd:7203]
+Instruction: set : b <- 1318861454
+Set b to 1318861454
+map[snd:7203 i:105 a:2147483647 p:1318861454 b:1318861454]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:105 a:2147483647 p:1318861454 b:1454 snd:7203]
+Instruction: snd : b <- 0
+Playing Sound 1454
+map[i:105 a:2147483647 p:1318861454 b:1454 snd:1454]
+Instruction: add : i <- -1
+Add i and -1
+map[i:104 a:2147483647 p:1318861454 b:1454 snd:1454]
+Instruction: jgz : i <- -9
+map[b:1454 snd:1454 i:104 a:2147483647 p:1318861454]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:11216916666270 b:1454 snd:1454 i:104]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:609577989 b:1454 snd:1454 i:104 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:1454 snd:1454 i:104 a:2147483647 p:79092134494761]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:104 a:2147483647 p:79092134507106 b:1454 snd:1454]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:1454 snd:1454 i:104 a:2147483647 p:311788096]
+Instruction: set : b <- 311788096
+Set b to 311788096
+map[i:104 a:2147483647 p:311788096 b:311788096 snd:1454]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:1454 i:104 a:2147483647 p:311788096 b:8096]
+Instruction: snd : b <- 0
+Playing Sound 8096
+map[i:104 a:2147483647 p:311788096 b:8096 snd:8096]
+Instruction: add : i <- -1
+Add i and -1
+map[i:103 a:2147483647 p:311788096 b:8096 snd:8096]
+Instruction: jgz : i <- -9
+map[b:8096 snd:8096 i:103 a:2147483647 p:311788096]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:2651757756480 b:8096 snd:8096 i:103]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:103 a:2147483647 p:1762936082 b:8096 snd:8096]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:228739193703418 b:8096 snd:8096 i:103 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:8096 i:103 a:2147483647 p:228739193715763 b:8096]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:103 a:2147483647 p:2120539205 b:8096 snd:8096]
+Instruction: set : b <- 2120539205
+Set b to 2120539205
+map[i:103 a:2147483647 p:2120539205 b:2120539205 snd:8096]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:103 a:2147483647 p:2120539205 b:9205 snd:8096]
+Instruction: snd : b <- 0
+Playing Sound 9205
+map[i:103 a:2147483647 p:2120539205 b:9205 snd:9205]
+Instruction: add : i <- -1
+Add i and -1
+map[i:102 a:2147483647 p:2120539205 b:9205 snd:9205]
+Instruction: jgz : i <- -9
+map[snd:9205 i:102 a:2147483647 p:2120539205 b:9205]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:102 a:2147483647 p:18035185938525 b:9205 snd:9205]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:618271019 b:9205 snd:9205 i:102]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:102 a:2147483647 p:80220046444231 b:9205 snd:9205]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:80220046456576 b:9205 snd:9205 i:102 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:9205 snd:9205 i:102 a:2147483647 p:794822891]
+Instruction: set : b <- 794822891
+Set b to 794822891
+map[i:102 a:2147483647 p:794822891 b:794822891 snd:9205]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:2891 snd:9205 i:102 a:2147483647 p:794822891]
+Instruction: snd : b <- 0
+Playing Sound 2891
+map[i:102 a:2147483647 p:794822891 b:2891 snd:2891]
+Instruction: add : i <- -1
+Add i and -1
+map[b:2891 snd:2891 i:101 a:2147483647 p:794822891]
+Instruction: jgz : i <- -9
+map[i:101 a:2147483647 p:794822891 b:2891 snd:2891]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:2891 snd:2891 i:101 a:2147483647 p:6759968687955]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:101 a:2147483647 p:1837650846 b:2891 snd:2891]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:2891 i:101 a:2147483647 p:238433359617654 b:2891]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:101 a:2147483647 p:238433359629999 b:2891 snd:2891]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:101 a:2147483647 p:397787236 b:2891 snd:2891]
+Instruction: set : b <- 397787236
+Set b to 397787236
+map[snd:2891 i:101 a:2147483647 p:397787236 b:397787236]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:101 a:2147483647 p:397787236 b:7236 snd:2891]
+Instruction: snd : b <- 0
+Playing Sound 7236
+map[i:101 a:2147483647 p:397787236 b:7236 snd:7236]
+Instruction: add : i <- -1
+Add i and -1
+map[i:100 a:2147483647 p:397787236 b:7236 snd:7236]
+Instruction: jgz : i <- -9
+map[i:100 a:2147483647 p:397787236 b:7236 snd:7236]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:3383180442180 b:7236 snd:7236 i:100]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:100 a:2147483647 p:893698155 b:7236 snd:7236]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:115956441913095 b:7236 snd:7236 i:100 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:7236 i:100 a:2147483647 p:115956441925440 b:7236]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:100 a:2147483647 p:914922028 b:7236 snd:7236]
+Instruction: set : b <- 914922028
+Set b to 914922028
+map[i:100 a:2147483647 p:914922028 b:914922028 snd:7236]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:7236 i:100 a:2147483647 p:914922028 b:2028]
+Instruction: snd : b <- 0
+Playing Sound 2028
+map[i:100 a:2147483647 p:914922028 b:2028 snd:2028]
+Instruction: add : i <- -1
+Add i and -1
+map[i:99 a:2147483647 p:914922028 b:2028 snd:2028]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:914922028 b:2028 snd:2028 i:99]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:99 a:2147483647 p:7781411848140 b:2028 snd:2028]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:99 a:2147483647 p:1078595059 b:2028 snd:2028]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:139946630310191 b:2028 snd:2028 i:99 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:2028 i:99 a:2147483647 p:139946630322536 b:2028]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:99 a:2147483647 p:1563498487 b:2028 snd:2028]
+Instruction: set : b <- 1563498487
+Set b to 1563498487
+map[a:2147483647 p:1563498487 b:1563498487 snd:2028 i:99]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:99 a:2147483647 p:1563498487 b:8487 snd:2028]
+Instruction: snd : b <- 0
+Playing Sound 8487
+map[p:1563498487 b:8487 snd:8487 i:99 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:8487 i:98 a:2147483647 p:1563498487 b:8487]
+Instruction: jgz : i <- -9
+map[i:98 a:2147483647 p:1563498487 b:8487 snd:8487]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:98 a:2147483647 p:13297554631935 b:8487 snd:8487]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:98 a:2147483647 p:335889711 b:8487 snd:8487]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:98 a:2147483647 p:43581354112539 b:8487 snd:8487]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:98 a:2147483647 p:43581354124884 b:8487 snd:8487]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:98 a:2147483647 p:320992666 b:8487 snd:8487]
+Instruction: set : b <- 320992666
+Set b to 320992666
+map[snd:8487 i:98 a:2147483647 p:320992666 b:320992666]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:98 a:2147483647 p:320992666 b:2666 snd:8487]
+Instruction: snd : b <- 0
+Playing Sound 2666
+map[i:98 a:2147483647 p:320992666 b:2666 snd:2666]
+Instruction: add : i <- -1
+Add i and -1
+map[i:97 a:2147483647 p:320992666 b:2666 snd:2666]
+Instruction: jgz : i <- -9
+map[b:2666 snd:2666 i:97 a:2147483647 p:320992666]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:97 a:2147483647 p:2730042624330 b:2666 snd:2666]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:2666 i:97 a:2147483647 p:590908993 b:2666]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:97 a:2147483647 p:76669850932757 b:2666 snd:2666]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:76669850945102 b:2666 snd:2666 i:97]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:389779908 b:2666 snd:2666 i:97 a:2147483647]
+Instruction: set : b <- 389779908
+Set b to 389779908
+map[snd:2666 i:97 a:2147483647 p:389779908 b:389779908]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:97 a:2147483647 p:389779908 b:9908 snd:2666]
+Instruction: snd : b <- 0
+Playing Sound 9908
+map[i:97 a:2147483647 p:389779908 b:9908 snd:9908]
+Instruction: add : i <- -1
+Add i and -1
+map[b:9908 snd:9908 i:96 a:2147483647 p:389779908]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:389779908 b:9908 snd:9908 i:96]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:96 a:2147483647 p:3315078117540 b:9908 snd:9908]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1510850219 b:9908 snd:9908 i:96 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:9908 snd:9908 i:96 a:2147483647 p:196031305065031]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:96 a:2147483647 p:196031305077376 b:9908 snd:9908]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:9908 snd:9908 i:96 a:2147483647 p:407844628]
+Instruction: set : b <- 407844628
+Set b to 407844628
+map[a:2147483647 p:407844628 b:407844628 snd:9908 i:96]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:96 a:2147483647 p:407844628 b:4628 snd:9908]
+Instruction: snd : b <- 0
+Playing Sound 4628
+map[p:407844628 b:4628 snd:4628 i:96 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[b:4628 snd:4628 i:95 a:2147483647 p:407844628]
+Instruction: jgz : i <- -9
+map[i:95 a:2147483647 p:407844628 b:4628 snd:4628]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:4628 snd:4628 i:95 a:2147483647 p:3468718561140]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:95 a:2147483647 p:532471235 b:4628 snd:4628]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:4628 i:95 a:2147483647 p:69087610270015 b:4628]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:95 a:2147483647 p:69087610282360 b:4628 snd:4628]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:95 a:2147483647 p:913874723 b:4628 snd:4628]
+Instruction: set : b <- 913874723
+Set b to 913874723
+map[i:95 a:2147483647 p:913874723 b:913874723 snd:4628]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:95 a:2147483647 p:913874723 b:4723 snd:4628]
+Instruction: snd : b <- 0
+Playing Sound 4723
+map[i:95 a:2147483647 p:913874723 b:4723 snd:4723]
+Instruction: add : i <- -1
+Add i and -1
+map[i:94 a:2147483647 p:913874723 b:4723 snd:4723]
+Instruction: jgz : i <- -9
+map[i:94 a:2147483647 p:913874723 b:4723 snd:4723]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:7772504519115 b:4723 snd:4723 i:94]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:94 a:2147483647 p:761200622 b:4723 snd:4723]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:98765019503878 b:4723 snd:4723 i:94 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:4723 snd:4723 i:94 a:2147483647 p:98765019516223]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:94 a:2147483647 p:99107046 b:4723 snd:4723]
+Instruction: set : b <- 99107046
+Set b to 99107046
+map[b:99107046 snd:4723 i:94 a:2147483647 p:99107046]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:94 a:2147483647 p:99107046 b:7046 snd:4723]
+Instruction: snd : b <- 0
+Playing Sound 7046
+map[snd:7046 i:94 a:2147483647 p:99107046 b:7046]
+Instruction: add : i <- -1
+Add i and -1
+map[i:93 a:2147483647 p:99107046 b:7046 snd:7046]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:99107046 b:7046 snd:7046 i:93]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:93 a:2147483647 p:842905426230 b:7046 snd:7046]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1091836606 b:7046 snd:7046 i:93 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:7046 i:93 a:2147483647 p:141664707791894 b:7046]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:93 a:2147483647 p:141664707804239 b:7046 snd:7046]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:93 a:2147483647 p:1654062590 b:7046 snd:7046]
+Instruction: set : b <- 1654062590
+Set b to 1654062590
+map[a:2147483647 p:1654062590 b:1654062590 snd:7046 i:93]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:93 a:2147483647 p:1654062590 b:2590 snd:7046]
+Instruction: snd : b <- 0
+Playing Sound 2590
+map[p:1654062590 b:2590 snd:2590 i:93 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:2590 i:92 a:2147483647 p:1654062590 b:2590]
+Instruction: jgz : i <- -9
+map[i:92 a:2147483647 p:1654062590 b:2590 snd:2590]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:92 a:2147483647 p:14067802327950 b:2590 snd:2590]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:2590 snd:2590 i:92 a:2147483647 p:1784440100]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:92 a:2147483647 p:231529318534900 b:2590 snd:2590]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:2590 i:92 a:2147483647 p:231529318547245 b:2590]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:92 a:2147483647 p:516629587 b:2590 snd:2590]
+Instruction: set : b <- 516629587
+Set b to 516629587
+map[i:92 a:2147483647 p:516629587 b:516629587 snd:2590]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:92 a:2147483647 p:516629587 b:9587 snd:2590]
+Instruction: snd : b <- 0
+Playing Sound 9587
+map[b:9587 snd:9587 i:92 a:2147483647 p:516629587]
+Instruction: add : i <- -1
+Add i and -1
+map[i:91 a:2147483647 p:516629587 b:9587 snd:9587]
+Instruction: jgz : i <- -9
+map[b:9587 snd:9587 i:91 a:2147483647 p:516629587]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:4393934637435 b:9587 snd:9587 i:91]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:91 a:2147483647 p:183095673 b:9587 snd:9587]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:91 a:2147483647 p:23756480476077 b:9587 snd:9587]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:91 a:2147483647 p:23756480488422 b:9587 snd:9587]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:91 a:2147483647 p:1016385308 b:9587 snd:9587]
+Instruction: set : b <- 1016385308
+Set b to 1016385308
+map[i:91 a:2147483647 p:1016385308 b:1016385308 snd:9587]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:1016385308 b:5308 snd:9587 i:91 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 5308
+map[snd:5308 i:91 a:2147483647 p:1016385308 b:5308]
+Instruction: add : i <- -1
+Add i and -1
+map[i:90 a:2147483647 p:1016385308 b:5308 snd:5308]
+Instruction: jgz : i <- -9
+map[i:90 a:2147483647 p:1016385308 b:5308 snd:5308]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:5308 snd:5308 i:90 a:2147483647 p:8644357044540]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:735365365 b:5308 snd:5308 i:90]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:90 a:2147483647 p:95412920743385 b:5308 snd:5308]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:95412920755730 b:5308 snd:5308 i:90 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:5308 i:90 a:2147483647 p:222319520 b:5308]
+Instruction: set : b <- 222319520
+Set b to 222319520
+map[i:90 a:2147483647 p:222319520 b:222319520 snd:5308]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:90 a:2147483647 p:222319520 b:9520 snd:5308]
+Instruction: snd : b <- 0
+Playing Sound 9520
+map[snd:9520 i:90 a:2147483647 p:222319520 b:9520]
+Instruction: add : i <- -1
+Add i and -1
+map[i:89 a:2147483647 p:222319520 b:9520 snd:9520]
+Instruction: jgz : i <- -9
+map[i:89 a:2147483647 p:222319520 b:9520 snd:9520]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:89 a:2147483647 p:1890827517600 b:9520 snd:9520]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:89 a:2147483647 p:1041908240 b:9520 snd:9520]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:89 a:2147483647 p:135186552231760 b:9520 snd:9520]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:135186552244105 b:9520 snd:9520 i:89]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:89 a:2147483647 p:309181808 b:9520 snd:9520]
+Instruction: set : b <- 309181808
+Set b to 309181808
+map[p:309181808 b:309181808 snd:9520 i:89 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:1808 snd:9520 i:89 a:2147483647 p:309181808]
+Instruction: snd : b <- 0
+Playing Sound 1808
+map[a:2147483647 p:309181808 b:1808 snd:1808 i:89]
+Instruction: add : i <- -1
+Add i and -1
+map[p:309181808 b:1808 snd:1808 i:88 a:2147483647]
+Instruction: jgz : i <- -9
+map[snd:1808 i:88 a:2147483647 p:309181808 b:1808]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:88 a:2147483647 p:2629591277040 b:1808 snd:1808]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:88 a:2147483647 p:1071293112 b:1808 snd:1808]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:88 a:2147483647 p:138999209988888 b:1808 snd:1808]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:88 a:2147483647 p:138999210001233 b:1808 snd:1808]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:88 a:2147483647 p:1183465511 b:1808 snd:1808]
+Instruction: set : b <- 1183465511
+Set b to 1183465511
+map[snd:1808 i:88 a:2147483647 p:1183465511 b:1183465511]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:88 a:2147483647 p:1183465511 b:5511 snd:1808]
+Instruction: snd : b <- 0
+Playing Sound 5511
+map[i:88 a:2147483647 p:1183465511 b:5511 snd:5511]
+Instruction: add : i <- -1
+Add i and -1
+map[i:87 a:2147483647 p:1183465511 b:5511 snd:5511]
+Instruction: jgz : i <- -9
+map[b:5511 snd:5511 i:87 a:2147483647 p:1183465511]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:87 a:2147483647 p:10065374171055 b:5511 snd:5511]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:5511 snd:5511 i:87 a:2147483647 p:118317566]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:87 a:2147483647 p:15351585870934 b:5511 snd:5511]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:5511 i:87 a:2147483647 p:15351585883279 b:5511]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:87 a:2147483647 p:1372774523 b:5511 snd:5511]
+Instruction: set : b <- 1372774523
+Set b to 1372774523
+map[a:2147483647 p:1372774523 b:1372774523 snd:5511 i:87]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:87 a:2147483647 p:1372774523 b:4523 snd:5511]
+Instruction: snd : b <- 0
+Playing Sound 4523
+map[p:1372774523 b:4523 snd:4523 i:87 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:4523 i:86 a:2147483647 p:1372774523 b:4523]
+Instruction: jgz : i <- -9
+map[i:86 a:2147483647 p:1372774523 b:4523 snd:4523]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:86 a:2147483647 p:11675447318115 b:4523 snd:4523]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:4523 i:86 a:2147483647 p:1726213023 b:4523]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:86 a:2147483647 p:223974413521227 b:4523 snd:4523]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:86 a:2147483647 p:223974413533572 b:4523 snd:4523]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:86 a:2147483647 p:459086060 b:4523 snd:4523]
+Instruction: set : b <- 459086060
+Set b to 459086060
+map[i:86 a:2147483647 p:459086060 b:459086060 snd:4523]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:6060 snd:4523 i:86 a:2147483647 p:459086060]
+Instruction: snd : b <- 0
+Playing Sound 6060
+map[a:2147483647 p:459086060 b:6060 snd:6060 i:86]
+Instruction: add : i <- -1
+Add i and -1
+map[p:459086060 b:6060 snd:6060 i:85 a:2147483647]
+Instruction: jgz : i <- -9
+map[snd:6060 i:85 a:2147483647 p:459086060 b:6060]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:85 a:2147483647 p:3904526940300 b:6060 snd:6060]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:85 a:2147483647 p:401670054 b:6060 snd:6060]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:85 a:2147483647 p:52116287836446 b:6060 snd:6060]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:6060 snd:6060 i:85 a:2147483647 p:52116287848791]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:85 a:2147483647 p:1154703395 b:6060 snd:6060]
+Instruction: set : b <- 1154703395
+Set b to 1154703395
+map[snd:6060 i:85 a:2147483647 p:1154703395 b:1154703395]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:85 a:2147483647 p:1154703395 b:3395 snd:6060]
+Instruction: snd : b <- 0
+Playing Sound 3395
+map[a:2147483647 p:1154703395 b:3395 snd:3395 i:85]
+Instruction: add : i <- -1
+Add i and -1
+map[i:84 a:2147483647 p:1154703395 b:3395 snd:3395]
+Instruction: jgz : i <- -9
+map[i:84 a:2147483647 p:1154703395 b:3395 snd:3395]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:84 a:2147483647 p:9820752374475 b:3395 snd:3395]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:309656744 b:3395 snd:3395 i:84 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:3395 snd:3395 i:84 a:2147483647 p:40177652877256]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:40177652889601 b:3395 snd:3395 i:84]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:84 a:2147483647 p:381337878 b:3395 snd:3395]
+Instruction: set : b <- 381337878
+Set b to 381337878
+map[i:84 a:2147483647 p:381337878 b:381337878 snd:3395]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:84 a:2147483647 p:381337878 b:7878 snd:3395]
+Instruction: snd : b <- 0
+Playing Sound 7878
+map[p:381337878 b:7878 snd:7878 i:84 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:7878 i:83 a:2147483647 p:381337878 b:7878]
+Instruction: jgz : i <- -9
+map[i:83 a:2147483647 p:381337878 b:7878 snd:7878]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:83 a:2147483647 p:3243278652390 b:7878 snd:7878]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:83 a:2147483647 p:578345420 b:7878 snd:7878]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:83 a:2147483647 p:75039739899580 b:7878 snd:7878]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:83 a:2147483647 p:75039739911925 b:7878 snd:7878]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:7878 i:83 a:2147483647 p:218834804 b:7878]
+Instruction: set : b <- 218834804
+Set b to 218834804
+map[i:83 a:2147483647 p:218834804 b:218834804 snd:7878]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:83 a:2147483647 p:218834804 b:4804 snd:7878]
+Instruction: snd : b <- 0
+Playing Sound 4804
+map[b:4804 snd:4804 i:83 a:2147483647 p:218834804]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:218834804 b:4804 snd:4804 i:82]
+Instruction: jgz : i <- -9
+map[p:218834804 b:4804 snd:4804 i:82 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[snd:4804 i:82 a:2147483647 p:1861190008020 b:4804]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:82 a:2147483647 p:1469169718 b:4804 snd:4804]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:82 a:2147483647 p:190623301740782 b:4804 snd:4804]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:82 a:2147483647 p:190623301753127 b:4804 snd:4804]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:82 a:2147483647 p:1915827172 b:4804 snd:4804]
+Instruction: set : b <- 1915827172
+Set b to 1915827172
+map[b:1915827172 snd:4804 i:82 a:2147483647 p:1915827172]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:82 a:2147483647 p:1915827172 b:7172 snd:4804]
+Instruction: snd : b <- 0
+Playing Sound 7172
+map[b:7172 snd:7172 i:82 a:2147483647 p:1915827172]
+Instruction: add : i <- -1
+Add i and -1
+map[i:81 a:2147483647 p:1915827172 b:7172 snd:7172]
+Instruction: jgz : i <- -9
+map[b:7172 snd:7172 i:81 a:2147483647 p:1915827172]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:81 a:2147483647 p:16294110097860 b:7172 snd:7172]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:7172 snd:7172 i:81 a:2147483647 p:1151668071]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:81 a:2147483647 p:149427780544179 b:7172 snd:7172]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:7172 snd:7172 i:81 a:2147483647 p:149427780556524]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:81 a:2147483647 p:1573430970 b:7172 snd:7172]
+Instruction: set : b <- 1573430970
+Set b to 1573430970
+map[snd:7172 i:81 a:2147483647 p:1573430970 b:1573430970]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:81 a:2147483647 p:1573430970 b:970 snd:7172]
+Instruction: snd : b <- 0
+Playing Sound 970
+map[i:81 a:2147483647 p:1573430970 b:970 snd:970]
+Instruction: add : i <- -1
+Add i and -1
+map[i:80 a:2147483647 p:1573430970 b:970 snd:970]
+Instruction: jgz : i <- -9
+map[i:80 a:2147483647 p:1573430970 b:970 snd:970]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[snd:970 i:80 a:2147483647 p:13382030399850 b:970]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:80 a:2147483647 p:1059795393 b:970 snd:970]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:80 a:2147483647 p:137507392446357 b:970 snd:970]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:80 a:2147483647 p:137507392458702 b:970 snd:970]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:80 a:2147483647 p:1867057645 b:970 snd:970]
+Instruction: set : b <- 1867057645
+Set b to 1867057645
+map[i:80 a:2147483647 p:1867057645 b:1867057645 snd:970]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:970 i:80 a:2147483647 p:1867057645 b:7645]
+Instruction: snd : b <- 0
+Playing Sound 7645
+map[i:80 a:2147483647 p:1867057645 b:7645 snd:7645]
+Instruction: add : i <- -1
+Add i and -1
+map[i:79 a:2147483647 p:1867057645 b:7645 snd:7645]
+Instruction: jgz : i <- -9
+map[i:79 a:2147483647 p:1867057645 b:7645 snd:7645]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:15879325270725 b:7645 snd:7645 i:79]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:831184807 b:7645 snd:7645 i:79 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:7645 i:79 a:2147483647 p:107845397523443 b:7645]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:79 a:2147483647 p:107845397535788 b:7645 snd:7645]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:79 a:2147483647 p:916267095 b:7645 snd:7645]
+Instruction: set : b <- 916267095
+Set b to 916267095
+map[snd:7645 i:79 a:2147483647 p:916267095 b:916267095]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:79 a:2147483647 p:916267095 b:7095 snd:7645]
+Instruction: snd : b <- 0
+Playing Sound 7095
+map[i:79 a:2147483647 p:916267095 b:7095 snd:7095]
+Instruction: add : i <- -1
+Add i and -1
+map[i:78 a:2147483647 p:916267095 b:7095 snd:7095]
+Instruction: jgz : i <- -9
+map[i:78 a:2147483647 p:916267095 b:7095 snd:7095]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:7792851642975 b:7095 snd:7095 i:78]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:78 a:2147483647 p:1780971659 b:7095 snd:7095]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:231079291783591 b:7095 snd:7095 i:78 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:7095 snd:7095 i:78 a:2147483647 p:231079291795936]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1461444148 b:7095 snd:7095 i:78]
+Instruction: set : b <- 1461444148
+Set b to 1461444148
+map[i:78 a:2147483647 p:1461444148 b:1461444148 snd:7095]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:1461444148 b:4148 snd:7095 i:78 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 4148
+map[snd:4148 i:78 a:2147483647 p:1461444148 b:4148]
+Instruction: add : i <- -1
+Add i and -1
+map[i:77 a:2147483647 p:1461444148 b:4148 snd:4148]
+Instruction: jgz : i <- -9
+map[i:77 a:2147483647 p:1461444148 b:4148 snd:4148]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:77 a:2147483647 p:12429582478740 b:4148 snd:4148]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:77 a:2147483647 p:2094613551 b:4148 snd:4148]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:271774013628699 b:4148 snd:4148 i:77]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:77 a:2147483647 p:271774013641044 b:4148 snd:4148]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:77 a:2147483647 p:1368178606 b:4148 snd:4148]
+Instruction: set : b <- 1368178606
+Set b to 1368178606
+map[p:1368178606 b:1368178606 snd:4148 i:77 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:4148 i:77 a:2147483647 p:1368178606 b:8606]
+Instruction: snd : b <- 0
+Playing Sound 8606
+map[i:77 a:2147483647 p:1368178606 b:8606 snd:8606]
+Instruction: add : i <- -1
+Add i and -1
+map[i:76 a:2147483647 p:1368178606 b:8606 snd:8606]
+Instruction: jgz : i <- -9
+map[snd:8606 i:76 a:2147483647 p:1368178606 b:8606]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:76 a:2147483647 p:11636359044030 b:8606 snd:8606]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1292644584 b:8606 snd:8606 i:76]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:76 a:2147483647 p:167719342129416 b:8606 snd:8606]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:167719342141761 b:8606 snd:8606 i:76 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:8606 i:76 a:2147483647 p:869311061 b:8606]
+Instruction: set : b <- 869311061
+Set b to 869311061
+map[i:76 a:2147483647 p:869311061 b:869311061 snd:8606]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:76 a:2147483647 p:869311061 b:1061 snd:8606]
+Instruction: snd : b <- 0
+Playing Sound 1061
+map[a:2147483647 p:869311061 b:1061 snd:1061 i:76]
+Instruction: add : i <- -1
+Add i and -1
+map[p:869311061 b:1061 snd:1061 i:75 a:2147483647]
+Instruction: jgz : i <- -9
+map[b:1061 snd:1061 i:75 a:2147483647 p:869311061]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:7393490573805 b:1061 snd:1061 i:75]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:75 a:2147483647 p:1851860831 b:1061 snd:1061]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:240277090961419 b:1061 snd:1061 i:75 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:1061 snd:1061 i:75 a:2147483647 p:240277090973764]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1588161875 b:1061 snd:1061 i:75]
+Instruction: set : b <- 1588161875
+Set b to 1588161875
+map[p:1588161875 b:1588161875 snd:1061 i:75 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:1061 i:75 a:2147483647 p:1588161875 b:1875]
+Instruction: snd : b <- 0
+Playing Sound 1875
+map[i:75 a:2147483647 p:1588161875 b:1875 snd:1875]
+Instruction: add : i <- -1
+Add i and -1
+map[i:74 a:2147483647 p:1588161875 b:1875 snd:1875]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:1588161875 b:1875 snd:1875 i:74]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:74 a:2147483647 p:13507316746875 b:1875 snd:1875]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1792090892 b:1875 snd:1875 i:74 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:1875 snd:1875 i:74 a:2147483647 p:232522001146108]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:74 a:2147483647 p:232522001158453 b:1875 snd:1875]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:1875 snd:1875 i:74 a:2147483647 p:1061795881]
+Instruction: set : b <- 1061795881
+Set b to 1061795881
+map[a:2147483647 p:1061795881 b:1061795881 snd:1875 i:74]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:74 a:2147483647 p:1061795881 b:5881 snd:1875]
+Instruction: snd : b <- 0
+Playing Sound 5881
+map[i:74 a:2147483647 p:1061795881 b:5881 snd:5881]
+Instruction: add : i <- -1
+Add i and -1
+map[i:73 a:2147483647 p:1061795881 b:5881 snd:5881]
+Instruction: jgz : i <- -9
+map[i:73 a:2147483647 p:1061795881 b:5881 snd:5881]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:9030573967905 b:5881 snd:5881 i:73 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:5881 snd:5881 i:73 a:2147483647 p:405232270]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:73 a:2147483647 p:52578481800230 b:5881 snd:5881]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:5881 snd:5881 i:73 a:2147483647 p:52578481812575]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1639683074 b:5881 snd:5881 i:73]
+Instruction: set : b <- 1639683074
+Set b to 1639683074
+map[i:73 a:2147483647 p:1639683074 b:1639683074 snd:5881]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:1639683074 b:3074 snd:5881 i:73 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 3074
+map[b:3074 snd:3074 i:73 a:2147483647 p:1639683074]
+Instruction: add : i <- -1
+Add i and -1
+map[i:72 a:2147483647 p:1639683074 b:3074 snd:3074]
+Instruction: jgz : i <- -9
+map[b:3074 snd:3074 i:72 a:2147483647 p:1639683074]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:72 a:2147483647 p:13945504544370 b:3074 snd:3074]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:3074 snd:3074 i:72 a:2147483647 p:1893224399]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:245643972545851 b:3074 snd:3074 i:72]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:72 a:2147483647 p:245643972558196 b:3074 snd:3074]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:72 a:2147483647 p:1908112454 b:3074 snd:3074]
+Instruction: set : b <- 1908112454
+Set b to 1908112454
+map[p:1908112454 b:1908112454 snd:3074 i:72 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:3074 i:72 a:2147483647 p:1908112454 b:2454]
+Instruction: snd : b <- 0
+Playing Sound 2454
+map[i:72 a:2147483647 p:1908112454 b:2454 snd:2454]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:1908112454 b:2454 snd:2454 i:71]
+Instruction: jgz : i <- -9
+map[p:1908112454 b:2454 snd:2454 i:71 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[snd:2454 i:71 a:2147483647 p:16228496421270 b:2454]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:71 a:2147483647 p:2109984538 b:2454 snd:2454]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:71 a:2147483647 p:273768383820962 b:2454 snd:2454]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:2454 i:71 a:2147483647 p:273768383833307 b:2454]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:71 a:2147483647 p:726062806 b:2454 snd:2454]
+Instruction: set : b <- 726062806
+Set b to 726062806
+map[a:2147483647 p:726062806 b:726062806 snd:2454 i:71]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:726062806 b:2806 snd:2454 i:71 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 2806
+map[snd:2806 i:71 a:2147483647 p:726062806 b:2806]
+Instruction: add : i <- -1
+Add i and -1
+map[i:70 a:2147483647 p:726062806 b:2806 snd:2806]
+Instruction: jgz : i <- -9
+map[i:70 a:2147483647 p:726062806 b:2806 snd:2806]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:70 a:2147483647 p:6175164165030 b:2806 snd:2806]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:70 a:2147483647 p:1148679905 b:2806 snd:2806]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:149040068993845 b:2806 snd:2806 i:70]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:149040069006190 b:2806 snd:2806 i:70 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:2806 i:70 a:2147483647 p:408937096 b:2806]
+Instruction: set : b <- 408937096
+Set b to 408937096
+map[i:70 a:2147483647 p:408937096 b:408937096 snd:2806]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:408937096 b:7096 snd:2806 i:70]
+Instruction: snd : b <- 0
+Playing Sound 7096
+map[p:408937096 b:7096 snd:7096 i:70 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[b:7096 snd:7096 i:69 a:2147483647 p:408937096]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:408937096 b:7096 snd:7096 i:69]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:69 a:2147483647 p:3478010001480 b:7096 snd:7096]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1233976987 b:7096 snd:7096 i:69 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:7096 snd:7096 i:69 a:2147483647 p:160107280086263]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:69 a:2147483647 p:160107280098608 b:7096 snd:7096]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:7096 snd:7096 i:69 a:2147483647 p:1636796523]
+Instruction: set : b <- 1636796523
+Set b to 1636796523
+map[a:2147483647 p:1636796523 b:1636796523 snd:7096 i:69]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:1636796523 b:6523 snd:7096 i:69 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 6523
+map[snd:6523 i:69 a:2147483647 p:1636796523 b:6523]
+Instruction: add : i <- -1
+Add i and -1
+map[i:68 a:2147483647 p:1636796523 b:6523 snd:6523]
+Instruction: jgz : i <- -9
+map[i:68 a:2147483647 p:1636796523 b:6523 snd:6523]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:68 a:2147483647 p:13920954428115 b:6523 snd:6523]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:6523 snd:6523 i:68 a:2147483647 p:965428261]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:125263351436489 b:6523 snd:6523 i:68]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:125263351448834 b:6523 snd:6523 i:68 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:6523 snd:6523 i:68 a:2147483647 p:630319324]
+Instruction: set : b <- 630319324
+Set b to 630319324
+map[a:2147483647 p:630319324 b:630319324 snd:6523 i:68]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:68 a:2147483647 p:630319324 b:9324 snd:6523]
+Instruction: snd : b <- 0
+Playing Sound 9324
+map[p:630319324 b:9324 snd:9324 i:68 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[b:9324 snd:9324 i:67 a:2147483647 p:630319324]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:630319324 b:9324 snd:9324 i:67]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:67 a:2147483647 p:5360865850620 b:9324 snd:9324]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:746667708 b:9324 snd:9324 i:67 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:9324 snd:9324 i:67 a:2147483647 p:96879388445292]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:67 a:2147483647 p:96879388457637 b:9324 snd:9324]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:9324 i:67 a:2147483647 p:2106174173 b:9324]
+Instruction: set : b <- 2106174173
+Set b to 2106174173
+map[i:67 a:2147483647 p:2106174173 b:2106174173 snd:9324]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:67 a:2147483647 p:2106174173 b:4173 snd:9324]
+Instruction: snd : b <- 0
+Playing Sound 4173
+map[snd:4173 i:67 a:2147483647 p:2106174173 b:4173]
+Instruction: add : i <- -1
+Add i and -1
+map[i:66 a:2147483647 p:2106174173 b:4173 snd:4173]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:2106174173 b:4173 snd:4173 i:66]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:17913011341365 b:4173 snd:4173 i:66 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:4173 i:66 a:2147483647 p:850241738 b:4173]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:66 a:2147483647 p:110318015263762 b:4173 snd:4173]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:66 a:2147483647 p:110318015276107 b:4173 snd:4173]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1780329717 b:4173 snd:4173 i:66]
+Instruction: set : b <- 1780329717
+Set b to 1780329717
+map[p:1780329717 b:1780329717 snd:4173 i:66 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:4173 i:66 a:2147483647 p:1780329717 b:9717]
+Instruction: snd : b <- 0
+Playing Sound 9717
+map[i:66 a:2147483647 p:1780329717 b:9717 snd:9717]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:1780329717 b:9717 snd:9717 i:65]
+Instruction: jgz : i <- -9
+map[p:1780329717 b:9717 snd:9717 i:65 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:9717 snd:9717 i:65 a:2147483647 p:15141704243085]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:65 a:2147483647 p:1944531735 b:9717 snd:9717]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:9717 i:65 a:2147483647 p:252301048084515 b:9717]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:65 a:2147483647 p:252301048096860 b:9717 snd:9717]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:65 a:2147483647 p:1784345418 b:9717 snd:9717]
+Instruction: set : b <- 1784345418
+Set b to 1784345418
+map[i:65 a:2147483647 p:1784345418 b:1784345418 snd:9717]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:65 a:2147483647 p:1784345418 b:5418 snd:9717]
+Instruction: snd : b <- 0
+Playing Sound 5418
+map[snd:5418 i:65 a:2147483647 p:1784345418 b:5418]
+Instruction: add : i <- -1
+Add i and -1
+map[i:64 a:2147483647 p:1784345418 b:5418 snd:5418]
+Instruction: jgz : i <- -9
+map[i:64 a:2147483647 p:1784345418 b:5418 snd:5418]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:64 a:2147483647 p:15175857780090 b:5418 snd:5418]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1738330388 b:5418 snd:5418 i:64]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:64 a:2147483647 p:225546629512612 b:5418 snd:5418]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:64 a:2147483647 p:225546629524957 b:5418 snd:5418]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:64 a:2147483647 p:717047841 b:5418 snd:5418]
+Instruction: set : b <- 717047841
+Set b to 717047841
+map[i:64 a:2147483647 p:717047841 b:717047841 snd:5418]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:64 a:2147483647 p:717047841 b:7841 snd:5418]
+Instruction: snd : b <- 0
+Playing Sound 7841
+map[i:64 a:2147483647 p:717047841 b:7841 snd:7841]
+Instruction: add : i <- -1
+Add i and -1
+map[p:717047841 b:7841 snd:7841 i:63 a:2147483647]
+Instruction: jgz : i <- -9
+map[b:7841 snd:7841 i:63 a:2147483647 p:717047841]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:63 a:2147483647 p:6098491887705 b:7841 snd:7841]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:7841 i:63 a:2147483647 p:1785813872 b:7841]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:63 a:2147483647 p:231707564078128 b:7841 snd:7841]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:63 a:2147483647 p:231707564090473 b:7841 snd:7841]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:7841 snd:7841 i:63 a:2147483647 p:521030114]
+Instruction: set : b <- 521030114
+Set b to 521030114
+map[i:63 a:2147483647 p:521030114 b:521030114 snd:7841]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:7841 i:63 a:2147483647 p:521030114 b:114]
+Instruction: snd : b <- 0
+Playing Sound 114
+map[i:63 a:2147483647 p:521030114 b:114 snd:114]
+Instruction: add : i <- -1
+Add i and -1
+map[i:62 a:2147483647 p:521030114 b:114 snd:114]
+Instruction: jgz : i <- -9
+map[i:62 a:2147483647 p:521030114 b:114 snd:114]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:62 a:2147483647 p:4431361119570 b:114 snd:114]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:62 a:2147483647 p:1102355809 b:114 snd:114]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:114 i:62 a:2147483647 p:143029563861941 b:114]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:62 a:2147483647 p:143029563874286 b:114 snd:114]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:62 a:2147483647 p:710533145 b:114 snd:114]
+Instruction: set : b <- 710533145
+Set b to 710533145
+map[i:62 a:2147483647 p:710533145 b:710533145 snd:114]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:3145 snd:114 i:62 a:2147483647 p:710533145]
+Instruction: snd : b <- 0
+Playing Sound 3145
+map[i:62 a:2147483647 p:710533145 b:3145 snd:3145]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:3145 i:61 a:2147483647 p:710533145 b:3145]
+Instruction: jgz : i <- -9
+map[i:61 a:2147483647 p:710533145 b:3145 snd:3145]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:61 a:2147483647 p:6043084398225 b:3145 snd:3145]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:61 a:2147483647 p:65415567 b:3145 snd:3145]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:3145 i:61 a:2147483647 p:8487604402683 b:3145]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:61 a:2147483647 p:8487604415028 b:3145 snd:3145]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:61 a:2147483647 p:749042084 b:3145 snd:3145]
+Instruction: set : b <- 749042084
+Set b to 749042084
+map[i:61 a:2147483647 p:749042084 b:749042084 snd:3145]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:3145 i:61 a:2147483647 p:749042084 b:2084]
+Instruction: snd : b <- 0
+Playing Sound 2084
+map[i:61 a:2147483647 p:749042084 b:2084 snd:2084]
+Instruction: add : i <- -1
+Add i and -1
+map[i:60 a:2147483647 p:749042084 b:2084 snd:2084]
+Instruction: jgz : i <- -9
+map[i:60 a:2147483647 p:749042084 b:2084 snd:2084]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:6370602924420 b:2084 snd:2084 i:60]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1166427418 b:2084 snd:2084 i:60 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:2084 snd:2084 i:60 a:2147483647 p:151342791058082]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:60 a:2147483647 p:151342791070427 b:2084 snd:2084]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:2084 snd:2084 i:60 a:2147483647 p:1028531749]
+Instruction: set : b <- 1028531749
+Set b to 1028531749
+map[i:60 a:2147483647 p:1028531749 b:1028531749 snd:2084]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:1749 snd:2084 i:60 a:2147483647 p:1028531749]
+Instruction: snd : b <- 0
+Playing Sound 1749
+map[i:60 a:2147483647 p:1028531749 b:1749 snd:1749]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:1749 i:59 a:2147483647 p:1028531749 b:1749]
+Instruction: jgz : i <- -9
+map[i:59 a:2147483647 p:1028531749 b:1749 snd:1749]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:59 a:2147483647 p:8747662525245 b:1749 snd:1749]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:59 a:2147483647 p:961631014 b:1749 snd:1749]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:124770662435486 b:1749 snd:1749 i:59]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:124770662447831 b:1749 snd:1749 i:59 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:1749 i:59 a:2147483647 p:1862557131 b:1749]
+Instruction: set : b <- 1862557131
+Set b to 1862557131
+map[i:59 a:2147483647 p:1862557131 b:1862557131 snd:1749]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:1862557131 b:7131 snd:1749 i:59]
+Instruction: snd : b <- 0
+Playing Sound 7131
+map[i:59 a:2147483647 p:1862557131 b:7131 snd:7131]
+Instruction: add : i <- -1
+Add i and -1
+map[i:58 a:2147483647 p:1862557131 b:7131 snd:7131]
+Instruction: jgz : i <- -9
+map[p:1862557131 b:7131 snd:7131 i:58 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[snd:7131 i:58 a:2147483647 p:15841048399155 b:7131]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:58 a:2147483647 p:1209018883 b:7131 snd:7131]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:58 a:2147483647 p:156868991050367 b:7131 snd:7131]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:58 a:2147483647 p:156868991062712 b:7131 snd:7131]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:58 a:2147483647 p:1753100303 b:7131 snd:7131]
+Instruction: set : b <- 1753100303
+Set b to 1753100303
+map[b:1753100303 snd:7131 i:58 a:2147483647 p:1753100303]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:1753100303 b:303 snd:7131 i:58]
+Instruction: snd : b <- 0
+Playing Sound 303
+map[p:1753100303 b:303 snd:303 i:58 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[b:303 snd:303 i:57 a:2147483647 p:1753100303]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:1753100303 b:303 snd:303 i:57]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:14910118077015 b:303 snd:303 i:57 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:303 i:57 a:2147483647 p:139115894 b:303]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:57 a:2147483647 p:18050148130606 b:303 snd:303]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:57 a:2147483647 p:18050148142951 b:303 snd:303]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:303 snd:303 i:57 a:2147483647 p:548089916]
+Instruction: set : b <- 548089916
+Set b to 548089916
+map[a:2147483647 p:548089916 b:548089916 snd:303 i:57]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:548089916 b:9916 snd:303 i:57 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 9916
+map[snd:9916 i:57 a:2147483647 p:548089916 b:9916]
+Instruction: add : i <- -1
+Add i and -1
+map[i:56 a:2147483647 p:548089916 b:9916 snd:9916]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:548089916 b:9916 snd:9916 i:56]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:56 a:2147483647 p:4661504735580 b:9916 snd:9916]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:56 a:2147483647 p:1465221590 b:9916 snd:9916]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:56 a:2147483647 p:190111036080910 b:9916 snd:9916]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:190111036093255 b:9916 snd:9916 i:56 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:9916 i:56 a:2147483647 p:751275286 b:9916]
+Instruction: set : b <- 751275286
+Set b to 751275286
+map[i:56 a:2147483647 p:751275286 b:751275286 snd:9916]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:56 a:2147483647 p:751275286 b:5286 snd:9916]
+Instruction: snd : b <- 0
+Playing Sound 5286
+map[i:56 a:2147483647 p:751275286 b:5286 snd:5286]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:5286 i:55 a:2147483647 p:751275286 b:5286]
+Instruction: jgz : i <- -9
+map[i:55 a:2147483647 p:751275286 b:5286 snd:5286]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:55 a:2147483647 p:6389596307430 b:5286 snd:5286]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:55 a:2147483647 p:832457605 b:5286 snd:5286]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:55 a:2147483647 p:108010541791145 b:5286 snd:5286]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:55 a:2147483647 p:108010541803490 b:5286 snd:5286]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:704293978 b:5286 snd:5286 i:55]
+Instruction: set : b <- 704293978
+Set b to 704293978
+map[i:55 a:2147483647 p:704293978 b:704293978 snd:5286]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:704293978 b:3978 snd:5286 i:55 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 3978
+map[snd:3978 i:55 a:2147483647 p:704293978 b:3978]
+Instruction: add : i <- -1
+Add i and -1
+map[i:54 a:2147483647 p:704293978 b:3978 snd:3978]
+Instruction: jgz : i <- -9
+map[i:54 a:2147483647 p:704293978 b:3978 snd:3978]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:54 a:2147483647 p:5990020282890 b:3978 snd:3978]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:54 a:2147483647 p:688391407 b:3978 snd:3978]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:3978 i:54 a:2147483647 p:89318096666843 b:3978]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:54 a:2147483647 p:89318096679188 b:3978 snd:3978]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:2104316811 b:3978 snd:3978 i:54]
+Instruction: set : b <- 2104316811
+Set b to 2104316811
+map[p:2104316811 b:2104316811 snd:3978 i:54 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:6811 snd:3978 i:54 a:2147483647 p:2104316811]
+Instruction: snd : b <- 0
+Playing Sound 6811
+map[a:2147483647 p:2104316811 b:6811 snd:6811 i:54]
+Instruction: add : i <- -1
+Add i and -1
+map[p:2104316811 b:6811 snd:6811 i:53 a:2147483647]
+Instruction: jgz : i <- -9
+map[snd:6811 i:53 a:2147483647 p:2104316811 b:6811]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:53 a:2147483647 p:17897214477555 b:6811 snd:6811]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:53 a:2147483647 p:85763457 b:6811 snd:6811]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:53 a:2147483647 p:11127722782293 b:6811 snd:6811]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:6811 snd:6811 i:53 a:2147483647 p:11127722794638]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:53 a:2147483647 p:1610019531 b:6811 snd:6811]
+Instruction: set : b <- 1610019531
+Set b to 1610019531
+map[snd:6811 i:53 a:2147483647 p:1610019531 b:1610019531]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:53 a:2147483647 p:1610019531 b:9531 snd:6811]
+Instruction: snd : b <- 0
+Playing Sound 9531
+map[i:53 a:2147483647 p:1610019531 b:9531 snd:9531]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:1610019531 b:9531 snd:9531 i:52]
+Instruction: jgz : i <- -9
+map[p:1610019531 b:9531 snd:9531 i:52 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:9531 snd:9531 i:52 a:2147483647 p:13693216111155]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:52 a:2147483647 p:860377883 b:9531 snd:9531]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:9531 snd:9531 i:52 a:2147483647 p:111633169941367]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:111633169953712 b:9531 snd:9531 i:52]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:52 a:2147483647 p:527531711 b:9531 snd:9531]
+Instruction: set : b <- 527531711
+Set b to 527531711
+map[i:52 a:2147483647 p:527531711 b:527531711 snd:9531]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:52 a:2147483647 p:527531711 b:1711 snd:9531]
+Instruction: snd : b <- 0
+Playing Sound 1711
+map[p:527531711 b:1711 snd:1711 i:52 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:1711 i:51 a:2147483647 p:527531711 b:1711]
+Instruction: jgz : i <- -9
+map[i:51 a:2147483647 p:527531711 b:1711 snd:1711]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:51 a:2147483647 p:4486657202055 b:1711 snd:1711]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:563863472 b:1711 snd:1711 i:51]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:51 a:2147483647 p:73160721628528 b:1711 snd:1711]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:51 a:2147483647 p:73160721640873 b:1711 snd:1711]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:51 a:2147483647 p:248754877 b:1711 snd:1711]
+Instruction: set : b <- 248754877
+Set b to 248754877
+map[p:248754877 b:248754877 snd:1711 i:51 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:1711 i:51 a:2147483647 p:248754877 b:4877]
+Instruction: snd : b <- 0
+Playing Sound 4877
+map[i:51 a:2147483647 p:248754877 b:4877 snd:4877]
+Instruction: add : i <- -1
+Add i and -1
+map[i:50 a:2147483647 p:248754877 b:4877 snd:4877]
+Instruction: jgz : i <- -9
+map[snd:4877 i:50 a:2147483647 p:248754877 b:4877]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:50 a:2147483647 p:2115660228885 b:4877 snd:4877]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:50 a:2147483647 p:388836590 b:4877 snd:4877]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:4877 snd:4877 i:50 a:2147483647 p:50451158715910]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:50451158728255 b:4877 snd:4877 i:50]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:50 a:2147483647 p:325409284 b:4877 snd:4877]
+Instruction: set : b <- 325409284
+Set b to 325409284
+map[p:325409284 b:325409284 snd:4877 i:50 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:4877 i:50 a:2147483647 p:325409284 b:9284]
+Instruction: snd : b <- 0
+Playing Sound 9284
+map[i:50 a:2147483647 p:325409284 b:9284 snd:9284]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:325409284 b:9284 snd:9284 i:49]
+Instruction: jgz : i <- -9
+map[i:49 a:2147483647 p:325409284 b:9284 snd:9284]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:49 a:2147483647 p:2767605960420 b:9284 snd:9284]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1647023084 b:9284 snd:9284 i:49 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:9284 i:49 a:2147483647 p:213699598125916 b:9284]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:49 a:2147483647 p:213699598138261 b:9284 snd:9284]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:49 a:2147483647 p:1352941644 b:9284 snd:9284]
+Instruction: set : b <- 1352941644
+Set b to 1352941644
+map[snd:9284 i:49 a:2147483647 p:1352941644 b:1352941644]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:49 a:2147483647 p:1352941644 b:1644 snd:9284]
+Instruction: snd : b <- 0
+Playing Sound 1644
+map[i:49 a:2147483647 p:1352941644 b:1644 snd:1644]
+Instruction: add : i <- -1
+Add i and -1
+map[i:48 a:2147483647 p:1352941644 b:1644 snd:1644]
+Instruction: jgz : i <- -9
+map[b:1644 snd:1644 i:48 a:2147483647 p:1352941644]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:11506768682220 b:1644 snd:1644 i:48]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:551301594 b:1644 snd:1644 i:48 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:1644 i:48 a:2147483647 p:71530830519906 b:1644]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:48 a:2147483647 p:71530830532251 b:1644 snd:1644]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:297734328 b:1644 snd:1644 i:48]
+Instruction: set : b <- 297734328
+Set b to 297734328
+map[i:48 a:2147483647 p:297734328 b:297734328 snd:1644]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:297734328 b:4328 snd:1644 i:48 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 4328
+map[snd:4328 i:48 a:2147483647 p:297734328 b:4328]
+Instruction: add : i <- -1
+Add i and -1
+map[i:47 a:2147483647 p:297734328 b:4328 snd:4328]
+Instruction: jgz : i <- -9
+map[i:47 a:2147483647 p:297734328 b:4328 snd:4328]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:4328 snd:4328 i:47 a:2147483647 p:2532230459640]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:47 a:2147483647 p:347239827 b:4328 snd:4328]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:4328 i:47 a:2147483647 p:45054020313423 b:4328]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:47 a:2147483647 p:45054020325768 b:4328 snd:4328]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:47 a:2147483647 p:1960895355 b:4328 snd:4328]
+Instruction: set : b <- 1960895355
+Set b to 1960895355
+map[i:47 a:2147483647 p:1960895355 b:1960895355 snd:4328]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:5355 snd:4328 i:47 a:2147483647 p:1960895355]
+Instruction: snd : b <- 0
+Playing Sound 5355
+map[i:47 a:2147483647 p:1960895355 b:5355 snd:5355]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:5355 i:46 a:2147483647 p:1960895355 b:5355]
+Instruction: jgz : i <- -9
+map[i:46 a:2147483647 p:1960895355 b:5355 snd:5355]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:46 a:2147483647 p:16677414994275 b:5355 snd:5355]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:5355 snd:5355 i:46 a:2147483647 p:56991673]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:46 a:2147483647 p:7394612580077 b:5355 snd:5355]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:5355 snd:5355 i:46 a:2147483647 p:7394612592422]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:826395801 b:5355 snd:5355 i:46]
+Instruction: set : b <- 826395801
+Set b to 826395801
+map[p:826395801 b:826395801 snd:5355 i:46 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:5355 i:46 a:2147483647 p:826395801 b:5801]
+Instruction: snd : b <- 0
+Playing Sound 5801
+map[i:46 a:2147483647 p:826395801 b:5801 snd:5801]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:826395801 b:5801 snd:5801 i:45]
+Instruction: jgz : i <- -9
+map[i:45 a:2147483647 p:826395801 b:5801 snd:5801]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:45 a:2147483647 p:7028496287505 b:5801 snd:5801]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:45 a:2147483647 p:1929794521 b:5801 snd:5801]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:45 a:2147483647 p:250388909305229 b:5801 snd:5801]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:45 a:2147483647 p:250388909317574 b:5801 snd:5801]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:906011962 b:5801 snd:5801 i:45 a:2147483647]
+Instruction: set : b <- 906011962
+Set b to 906011962
+map[snd:5801 i:45 a:2147483647 p:906011962 b:906011962]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:45 a:2147483647 p:906011962 b:1962 snd:5801]
+Instruction: snd : b <- 0
+Playing Sound 1962
+map[a:2147483647 p:906011962 b:1962 snd:1962 i:45]
+Instruction: add : i <- -1
+Add i and -1
+map[p:906011962 b:1962 snd:1962 i:44 a:2147483647]
+Instruction: jgz : i <- -9
+map[snd:1962 i:44 a:2147483647 p:906011962 b:1962]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:44 a:2147483647 p:7705631736810 b:1962 snd:1962]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:44 a:2147483647 p:460411374 b:1962 snd:1962]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:44 a:2147483647 p:59737915365126 b:1962 snd:1962]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:59737915377471 b:1962 snd:1962 i:44]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:44 a:2147483647 p:1362768872 b:1962 snd:1962]
+Instruction: set : b <- 1362768872
+Set b to 1362768872
+map[p:1362768872 b:1362768872 snd:1962 i:44 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:1962 i:44 a:2147483647 p:1362768872 b:8872]
+Instruction: snd : b <- 0
+Playing Sound 8872
+map[i:44 a:2147483647 p:1362768872 b:8872 snd:8872]
+Instruction: add : i <- -1
+Add i and -1
+map[i:43 a:2147483647 p:1362768872 b:8872 snd:8872]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:1362768872 b:8872 snd:8872 i:43]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:11590349256360 b:8872 snd:8872 i:43 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:8872 i:43 a:2147483647 p:380013501 b:8872]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:43 a:2147483647 p:49306371741249 b:8872 snd:8872]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:43 a:2147483647 p:49306371753594 b:8872 snd:8872]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:147218474 b:8872 snd:8872 i:43]
+Instruction: set : b <- 147218474
+Set b to 147218474
+map[i:43 a:2147483647 p:147218474 b:147218474 snd:8872]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:43 a:2147483647 p:147218474 b:8474 snd:8872]
+Instruction: snd : b <- 0
+Playing Sound 8474
+map[p:147218474 b:8474 snd:8474 i:43 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[b:8474 snd:8474 i:42 a:2147483647 p:147218474]
+Instruction: jgz : i <- -9
+map[i:42 a:2147483647 p:147218474 b:8474 snd:8474]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[snd:8474 i:42 a:2147483647 p:1252093121370 b:8474]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:42 a:2147483647 p:110155169 b:8474 snd:8474]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:14292523022581 b:8474 snd:8474 i:42]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:42 a:2147483647 p:14292523034926 b:8474 snd:8474]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1019364141 b:8474 snd:8474 i:42 a:2147483647]
+Instruction: set : b <- 1019364141
+Set b to 1019364141
+map[snd:8474 i:42 a:2147483647 p:1019364141 b:1019364141]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:42 a:2147483647 p:1019364141 b:4141 snd:8474]
+Instruction: snd : b <- 0
+Playing Sound 4141
+map[i:42 a:2147483647 p:1019364141 b:4141 snd:4141]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:1019364141 b:4141 snd:4141 i:41]
+Instruction: jgz : i <- -9
+map[i:41 a:2147483647 p:1019364141 b:4141 snd:4141]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:8669692019205 b:4141 snd:4141 i:41 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:4141 i:41 a:2147483647 p:300536266 b:4141]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:41 a:2147483647 p:38994279977234 b:4141 snd:4141]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:38994279989579 b:4141 snd:4141 i:41]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:41 a:2147483647 p:271927353 b:4141 snd:4141]
+Instruction: set : b <- 271927353
+Set b to 271927353
+map[p:271927353 b:271927353 snd:4141 i:41 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:4141 i:41 a:2147483647 p:271927353 b:7353]
+Instruction: snd : b <- 0
+Playing Sound 7353
+map[i:41 a:2147483647 p:271927353 b:7353 snd:7353]
+Instruction: add : i <- -1
+Add i and -1
+map[a:2147483647 p:271927353 b:7353 snd:7353 i:40]
+Instruction: jgz : i <- -9
+map[i:40 a:2147483647 p:271927353 b:7353 snd:7353]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:2312742137265 b:7353 snd:7353 i:40 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:7353 i:40 a:2147483647 p:2049733093 b:7353]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:40 a:2147483647 p:265950819083657 b:7353 snd:7353]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:40 a:2147483647 p:265950819096002 b:7353 snd:7353]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:40 a:2147483647 p:1800581 b:7353 snd:7353]
+Instruction: set : b <- 1800581
+Set b to 1800581
+map[i:40 a:2147483647 p:1800581 b:1800581 snd:7353]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:7353 i:40 a:2147483647 p:1800581 b:581]
+Instruction: snd : b <- 0
+Playing Sound 581
+map[i:40 a:2147483647 p:1800581 b:581 snd:581]
+Instruction: add : i <- -1
+Add i and -1
+map[i:39 a:2147483647 p:1800581 b:581 snd:581]
+Instruction: jgz : i <- -9
+map[i:39 a:2147483647 p:1800581 b:581 snd:581]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[snd:581 i:39 a:2147483647 p:15313941405 b:581]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:39 a:2147483647 p:281555876 b:581 snd:581]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:36531593355124 b:581 snd:581 i:39]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:39 a:2147483647 p:36531593367469 b:581 snd:581]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:749048352 b:581 snd:581 i:39 a:2147483647]
+Instruction: set : b <- 749048352
+Set b to 749048352
+map[snd:581 i:39 a:2147483647 p:749048352 b:749048352]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:39 a:2147483647 p:749048352 b:8352 snd:581]
+Instruction: snd : b <- 0
+Playing Sound 8352
+map[i:39 a:2147483647 p:749048352 b:8352 snd:8352]
+Instruction: add : i <- -1
+Add i and -1
+map[b:8352 snd:8352 i:38 a:2147483647 p:749048352]
+Instruction: jgz : i <- -9
+map[i:38 a:2147483647 p:749048352 b:8352 snd:8352]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[snd:8352 i:38 a:2147483647 p:6370656233760 b:8352]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:38 a:2147483647 p:1219736758 b:8352 snd:8352]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:38 a:2147483647 p:158259624613742 b:8352 snd:8352]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:158259624626087 b:8352 snd:8352 i:38]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:817260422 b:8352 snd:8352 i:38 a:2147483647]
+Instruction: set : b <- 817260422
+Set b to 817260422
+map[b:817260422 snd:8352 i:38 a:2147483647 p:817260422]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:817260422 b:422 snd:8352 i:38]
+Instruction: snd : b <- 0
+Playing Sound 422
+map[p:817260422 b:422 snd:422 i:38 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:422 i:37 a:2147483647 p:817260422 b:422]
+Instruction: jgz : i <- -9
+map[i:37 a:2147483647 p:817260422 b:422 snd:422]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:37 a:2147483647 p:6950799889110 b:422 snd:422]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:37 a:2147483647 p:1542807418 b:422 snd:422]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:37 a:2147483647 p:200177719678082 b:422 snd:422]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:37 a:2147483647 p:200177719690427 b:422 snd:422]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:31535322 b:422 snd:422 i:37]
+Instruction: set : b <- 31535322
+Set b to 31535322
+map[p:31535322 b:31535322 snd:422 i:37 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:5322 snd:422 i:37 a:2147483647 p:31535322]
+Instruction: snd : b <- 0
+Playing Sound 5322
+map[i:37 a:2147483647 p:31535322 b:5322 snd:5322]
+Instruction: add : i <- -1
+Add i and -1
+map[b:5322 snd:5322 i:36 a:2147483647 p:31535322]
+Instruction: jgz : i <- -9
+map[i:36 a:2147483647 p:31535322 b:5322 snd:5322]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:5322 snd:5322 i:36 a:2147483647 p:268207913610]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1919941382 b:5322 snd:5322 i:36]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:36 a:2147483647 p:249110474373118 b:5322 snd:5322]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:36 a:2147483647 p:249110474385463 b:5322 snd:5322]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:36 a:2147483647 p:223849816 b:5322 snd:5322]
+Instruction: set : b <- 223849816
+Set b to 223849816
+map[i:36 a:2147483647 p:223849816 b:223849816 snd:5322]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:36 a:2147483647 p:223849816 b:9816 snd:5322]
+Instruction: snd : b <- 0
+Playing Sound 9816
+map[snd:9816 i:36 a:2147483647 p:223849816 b:9816]
+Instruction: add : i <- -1
+Add i and -1
+map[i:35 a:2147483647 p:223849816 b:9816 snd:9816]
+Instruction: jgz : i <- -9
+map[i:35 a:2147483647 p:223849816 b:9816 snd:9816]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:35 a:2147483647 p:1903842685080 b:9816 snd:9816]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:35 a:2147483647 p:1172173838 b:9816 snd:9816]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:9816 i:35 a:2147483647 p:152088383306662 b:9816]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:35 a:2147483647 p:152088383319007 b:9816 snd:9816]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1443954820 b:9816 snd:9816 i:35]
+Instruction: set : b <- 1443954820
+Set b to 1443954820
+map[i:35 a:2147483647 p:1443954820 b:1443954820 snd:9816]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:1443954820 b:4820 snd:9816 i:35 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 4820
+map[snd:4820 i:35 a:2147483647 p:1443954820 b:4820]
+Instruction: add : i <- -1
+Add i and -1
+map[i:34 a:2147483647 p:1443954820 b:4820 snd:4820]
+Instruction: jgz : i <- -9
+map[i:34 a:2147483647 p:1443954820 b:4820 snd:4820]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:34 a:2147483647 p:12280835744100 b:4820 snd:4820]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:34 a:2147483647 p:1524250554 b:4820 snd:4820]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:34 a:2147483647 p:197769985130946 b:4820 snd:4820]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:4820 i:34 a:2147483647 p:197769985143291 b:4820]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:34 a:2147483647 p:1773640120 b:4820 snd:4820]
+Instruction: set : b <- 1773640120
+Set b to 1773640120
+map[i:34 a:2147483647 p:1773640120 b:1773640120 snd:4820]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:1773640120 b:120 snd:4820 i:34]
+Instruction: snd : b <- 0
+Playing Sound 120
+map[p:1773640120 b:120 snd:120 i:34 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:120 i:33 a:2147483647 p:1773640120 b:120]
+Instruction: jgz : i <- -9
+map[i:33 a:2147483647 p:1773640120 b:120 snd:120]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:33 a:2147483647 p:15084809220600 b:120 snd:120]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:120 snd:120 i:33 a:2147483647 p:884084072]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:114709024257928 b:120 snd:120 i:33]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:114709024270273 b:120 snd:120 i:33 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:120 snd:120 i:33 a:2147483647 p:1185265768]
+Instruction: set : b <- 1185265768
+Set b to 1185265768
+map[a:2147483647 p:1185265768 b:1185265768 snd:120 i:33]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:1185265768 b:5768 snd:120 i:33 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 5768
+map[snd:5768 i:33 a:2147483647 p:1185265768 b:5768]
+Instruction: add : i <- -1
+Add i and -1
+map[i:32 a:2147483647 p:1185265768 b:5768 snd:5768]
+Instruction: jgz : i <- -9
+map[i:32 a:2147483647 p:1185265768 b:5768 snd:5768]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:10080685356840 b:5768 snd:5768 i:32]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:32 a:2147483647 p:397117822 b:5768 snd:5768]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:51525640286678 b:5768 snd:5768 i:32 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:5768 i:32 a:2147483647 p:51525640299023 b:5768]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:32 a:2147483647 p:1065156552 b:5768 snd:5768]
+Instruction: set : b <- 1065156552
+Set b to 1065156552
+map[i:32 a:2147483647 p:1065156552 b:1065156552 snd:5768]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:1065156552 b:6552 snd:5768 i:32]
+Instruction: snd : b <- 0
+Playing Sound 6552
+map[p:1065156552 b:6552 snd:6552 i:32 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[b:6552 snd:6552 i:31 a:2147483647 p:1065156552]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:1065156552 b:6552 snd:6552 i:31]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:9059156474760 b:6552 snd:6552 i:31 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:6552 snd:6552 i:31 a:2147483647 p:1070451714]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:138890039439786 b:6552 snd:6552 i:31]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:31 a:2147483647 p:138890039452131 b:6552 snd:6552]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:31 a:2147483647 p:1534582406 b:6552 snd:6552]
+Instruction: set : b <- 1534582406
+Set b to 1534582406
+map[p:1534582406 b:1534582406 snd:6552 i:31 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:2406 snd:6552 i:31 a:2147483647 p:1534582406]
+Instruction: snd : b <- 0
+Playing Sound 2406
+map[a:2147483647 p:1534582406 b:2406 snd:2406 i:31]
+Instruction: add : i <- -1
+Add i and -1
+map[p:1534582406 b:2406 snd:2406 i:30 a:2147483647]
+Instruction: jgz : i <- -9
+map[snd:2406 i:30 a:2147483647 p:1534582406 b:2406]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:30 a:2147483647 p:13051623363030 b:2406 snd:2406]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1365240211 b:2406 snd:2406 i:30]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:30 a:2147483647 p:177138552137039 b:2406 snd:2406]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:30 a:2147483647 p:177138552149384 b:2406 snd:2406]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1216042942 b:2406 snd:2406 i:30 a:2147483647]
+Instruction: set : b <- 1216042942
+Set b to 1216042942
+map[b:1216042942 snd:2406 i:30 a:2147483647 p:1216042942]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:30 a:2147483647 p:1216042942 b:2942 snd:2406]
+Instruction: snd : b <- 0
+Playing Sound 2942
+map[b:2942 snd:2942 i:30 a:2147483647 p:1216042942]
+Instruction: add : i <- -1
+Add i and -1
+map[i:29 a:2147483647 p:1216042942 b:2942 snd:2942]
+Instruction: jgz : i <- -9
+map[b:2942 snd:2942 i:29 a:2147483647 p:1216042942]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:29 a:2147483647 p:10342445221710 b:2942 snd:2942]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:2942 snd:2942 i:29 a:2147483647 p:163977758]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:29 a:2147483647 p:21275950122742 b:2942 snd:2942]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:2942 snd:2942 i:29 a:2147483647 p:21275950135087]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:29 a:2147483647 p:829644258 b:2942 snd:2942]
+Instruction: set : b <- 829644258
+Set b to 829644258
+map[snd:2942 i:29 a:2147483647 p:829644258 b:829644258]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:29 a:2147483647 p:829644258 b:4258 snd:2942]
+Instruction: snd : b <- 0
+Playing Sound 4258
+map[i:29 a:2147483647 p:829644258 b:4258 snd:4258]
+Instruction: add : i <- -1
+Add i and -1
+map[i:28 a:2147483647 p:829644258 b:4258 snd:4258]
+Instruction: jgz : i <- -9
+map[i:28 a:2147483647 p:829644258 b:4258 snd:4258]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:28 a:2147483647 p:7056124414290 b:4258 snd:4258]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1640633895 b:4258 snd:4258 i:28]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:28 a:2147483647 p:212870607242355 b:4258 snd:4258]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:28 a:2147483647 p:212870607254700 b:4258 snd:4258]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:28 a:2147483647 p:1290745825 b:4258 snd:4258]
+Instruction: set : b <- 1290745825
+Set b to 1290745825
+map[i:28 a:2147483647 p:1290745825 b:1290745825 snd:4258]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:1290745825 b:5825 snd:4258 i:28 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 5825
+map[snd:5825 i:28 a:2147483647 p:1290745825 b:5825]
+Instruction: add : i <- -1
+Add i and -1
+map[i:27 a:2147483647 p:1290745825 b:5825 snd:5825]
+Instruction: jgz : i <- -9
+map[i:27 a:2147483647 p:1290745825 b:5825 snd:5825]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:27 a:2147483647 p:10977793241625 b:5825 snd:5825]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:5825 i:27 a:2147483647 p:2004321808 b:5825]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:27 a:2147483647 p:260058750266192 b:5825 snd:5825]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:27 a:2147483647 p:260058750278537 b:5825 snd:5825]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:628110484 b:5825 snd:5825 i:27]
+Instruction: set : b <- 628110484
+Set b to 628110484
+map[p:628110484 b:628110484 snd:5825 i:27 a:2147483647]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:484 snd:5825 i:27 a:2147483647 p:628110484]
+Instruction: snd : b <- 0
+Playing Sound 484
+map[a:2147483647 p:628110484 b:484 snd:484 i:27]
+Instruction: add : i <- -1
+Add i and -1
+map[i:26 a:2147483647 p:628110484 b:484 snd:484]
+Instruction: jgz : i <- -9
+map[i:26 a:2147483647 p:628110484 b:484 snd:484]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:5342079666420 b:484 snd:484 i:26 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:484 i:26 a:2147483647 p:1287836331 b:484]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:26 a:2147483647 p:167095476110919 b:484 snd:484]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:26 a:2147483647 p:167095476123264 b:484 snd:484]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:484 snd:484 i:26 a:2147483647 p:1921033841]
+Instruction: set : b <- 1921033841
+Set b to 1921033841
+map[i:26 a:2147483647 p:1921033841 b:1921033841 snd:484]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:484 i:26 a:2147483647 p:1921033841 b:3841]
+Instruction: snd : b <- 0
+Playing Sound 3841
+map[i:26 a:2147483647 p:1921033841 b:3841 snd:3841]
+Instruction: add : i <- -1
+Add i and -1
+map[i:25 a:2147483647 p:1921033841 b:3841 snd:3841]
+Instruction: jgz : i <- -9
+map[snd:3841 i:25 a:2147483647 p:1921033841 b:3841]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:25 a:2147483647 p:16338392817705 b:3841 snd:3841]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:25 a:2147483647 p:337231329 b:3841 snd:3841]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:3841 i:25 a:2147483647 p:43755427706421 b:3841]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:25 a:2147483647 p:43755427718766 b:3841 snd:3841]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:25 a:2147483647 p:448411141 b:3841 snd:3841]
+Instruction: set : b <- 448411141
+Set b to 448411141
+map[b:448411141 snd:3841 i:25 a:2147483647 p:448411141]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:448411141 b:1141 snd:3841 i:25]
+Instruction: snd : b <- 0
+Playing Sound 1141
+map[i:25 a:2147483647 p:448411141 b:1141 snd:1141]
+Instruction: add : i <- -1
+Add i and -1
+map[i:24 a:2147483647 p:448411141 b:1141 snd:1141]
+Instruction: jgz : i <- -9
+map[p:448411141 b:1141 snd:1141 i:24 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:1141 snd:1141 i:24 a:2147483647 p:3813736754205]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1953280780 b:1141 snd:1141 i:24]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:24 a:2147483647 p:253436227924220 b:1141 snd:1141]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:253436227936565 b:1141 snd:1141 i:24 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:1141 snd:1141 i:24 a:2147483647 p:945335860]
+Instruction: set : b <- 945335860
+Set b to 945335860
+map[a:2147483647 p:945335860 b:945335860 snd:1141 i:24]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:24 a:2147483647 p:945335860 b:5860 snd:1141]
+Instruction: snd : b <- 0
+Playing Sound 5860
+map[p:945335860 b:5860 snd:5860 i:24 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:5860 i:23 a:2147483647 p:945335860 b:5860]
+Instruction: jgz : i <- -9
+map[i:23 a:2147483647 p:945335860 b:5860 snd:5860]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:23 a:2147483647 p:8040081489300 b:5860 snd:5860]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:23 a:2147483647 p:2050198579 b:5860 snd:5860]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:266011215426671 b:5860 snd:5860 i:23]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:266011215439016 b:5860 snd:5860 i:23 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:5860 i:23 a:2147483647 p:268601479 b:5860]
+Instruction: set : b <- 268601479
+Set b to 268601479
+map[i:23 a:2147483647 p:268601479 b:268601479 snd:5860]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:268601479 b:1479 snd:5860 i:23]
+Instruction: snd : b <- 0
+Playing Sound 1479
+map[p:268601479 b:1479 snd:1479 i:23 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:1479 i:22 a:2147483647 p:268601479 b:1479]
+Instruction: jgz : i <- -9
+map[i:22 a:2147483647 p:268601479 b:1479 snd:1479]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:22 a:2147483647 p:2284455578895 b:1479 snd:1479]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:1479 i:22 a:2147483647 p:1680462134 b:1479]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:22 a:2147483647 p:218038281424366 b:1479 snd:1479]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:218038281436711 b:1479 snd:1479 i:22]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:2119273154 b:1479 snd:1479 i:22 a:2147483647]
+Instruction: set : b <- 2119273154
+Set b to 2119273154
+map[snd:1479 i:22 a:2147483647 p:2119273154 b:2119273154]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:22 a:2147483647 p:2119273154 b:3154 snd:1479]
+Instruction: snd : b <- 0
+Playing Sound 3154
+map[i:22 a:2147483647 p:2119273154 b:3154 snd:3154]
+Instruction: add : i <- -1
+Add i and -1
+map[i:21 a:2147483647 p:2119273154 b:3154 snd:3154]
+Instruction: jgz : i <- -9
+map[snd:3154 i:21 a:2147483647 p:2119273154 b:3154]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:21 a:2147483647 p:18024418174770 b:3154 snd:3154]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:21 a:2147483647 p:587925499 b:3154 snd:3154]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[a:2147483647 p:76282745569751 b:3154 snd:3154 i:21]
+Instruction: add : p <- 12345
+Add p and 12345
+map[p:76282745582096 b:3154 snd:3154 i:21 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:3154 i:21 a:2147483647 p:1978957009 b:3154]
+Instruction: set : b <- 1978957009
+Set b to 1978957009
+map[i:21 a:2147483647 p:1978957009 b:1978957009 snd:3154]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:21 a:2147483647 p:1978957009 b:7009 snd:3154]
+Instruction: snd : b <- 0
+Playing Sound 7009
+map[i:21 a:2147483647 p:1978957009 b:7009 snd:7009]
+Instruction: add : i <- -1
+Add i and -1
+map[b:7009 snd:7009 i:20 a:2147483647 p:1978957009]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:1978957009 b:7009 snd:7009 i:20]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:20 a:2147483647 p:16831029361545 b:7009 snd:7009]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:20 a:2147483647 p:1200020006 b:7009 snd:7009]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:20 a:2147483647 p:155701395758494 b:7009 snd:7009]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:20 a:2147483647 p:155701395770839 b:7009 snd:7009]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:241428751 b:7009 snd:7009 i:20 a:2147483647]
+Instruction: set : b <- 241428751
+Set b to 241428751
+map[b:241428751 snd:7009 i:20 a:2147483647 p:241428751]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:241428751 b:8751 snd:7009 i:20]
+Instruction: snd : b <- 0
+Playing Sound 8751
+map[p:241428751 b:8751 snd:8751 i:20 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[b:8751 snd:8751 i:19 a:2147483647 p:241428751]
+Instruction: jgz : i <- -9
+map[a:2147483647 p:241428751 b:8751 snd:8751 i:19]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:2053351527255 b:8751 snd:8751 i:19 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:8751 i:19 a:2147483647 p:357160723 b:8751]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:19 a:2147483647 p:46341246648527 b:8751 snd:8751]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:46341246660872 b:8751 snd:8751 i:19]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:19 a:2147483647 p:697042259 b:8751 snd:8751]
+Instruction: set : b <- 697042259
+Set b to 697042259
+map[i:19 a:2147483647 p:697042259 b:697042259 snd:8751]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:697042259 b:2259 snd:8751 i:19 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 2259
+map[snd:2259 i:19 a:2147483647 p:697042259 b:2259]
+Instruction: add : i <- -1
+Add i and -1
+map[i:18 a:2147483647 p:697042259 b:2259 snd:2259]
+Instruction: jgz : i <- -9
+map[i:18 a:2147483647 p:697042259 b:2259 snd:2259]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:2259 snd:2259 i:18 a:2147483647 p:5928344412795]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:18 a:2147483647 p:1289547075 b:2259 snd:2259]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:2259 snd:2259 i:18 a:2147483647 p:167317443434175]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:18 a:2147483647 p:167317443446520 b:2259 snd:2259]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:2259 snd:2259 i:18 a:2147483647 p:550057809]
+Instruction: set : b <- 550057809
+Set b to 550057809
+map[a:2147483647 p:550057809 b:550057809 snd:2259 i:18]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:18 a:2147483647 p:550057809 b:7809 snd:2259]
+Instruction: snd : b <- 0
+Playing Sound 7809
+map[p:550057809 b:7809 snd:7809 i:18 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:7809 i:17 a:2147483647 p:550057809 b:7809]
+Instruction: jgz : i <- -9
+map[i:17 a:2147483647 p:550057809 b:7809 snd:7809]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:4678241665545 b:7809 snd:7809 i:17]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:17 a:2147483647 p:1022282379 b:7809 snd:7809]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:132640116392871 b:7809 snd:7809 i:17 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:7809 snd:7809 i:17 a:2147483647 p:132640116405216]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:788948261 b:7809 snd:7809 i:17]
+Instruction: set : b <- 788948261
+Set b to 788948261
+map[i:17 a:2147483647 p:788948261 b:788948261 snd:7809]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:17 a:2147483647 p:788948261 b:8261 snd:7809]
+Instruction: snd : b <- 0
+Playing Sound 8261
+map[p:788948261 b:8261 snd:8261 i:17 a:2147483647]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:8261 i:16 a:2147483647 p:788948261 b:8261]
+Instruction: jgz : i <- -9
+map[i:16 a:2147483647 p:788948261 b:8261 snd:8261]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:6710004959805 b:8261 snd:8261 i:16]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:16 a:2147483647 p:1266046577 b:8261 snd:8261]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:16 a:2147483647 p:164268277319173 b:8261 snd:8261]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:16 a:2147483647 p:164268277331518 b:8261 snd:8261]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:16 a:2147483647 p:810721547 b:8261 snd:8261]
+Instruction: set : b <- 810721547
+Set b to 810721547
+map[i:16 a:2147483647 p:810721547 b:810721547 snd:8261]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:810721547 b:1547 snd:8261 i:16 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 1547
+map[b:1547 snd:1547 i:16 a:2147483647 p:810721547]
+Instruction: add : i <- -1
+Add i and -1
+map[i:15 a:2147483647 p:810721547 b:1547 snd:1547]
+Instruction: jgz : i <- -9
+map[snd:1547 i:15 a:2147483647 p:810721547 b:1547]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:15 a:2147483647 p:6895186757235 b:1547 snd:1547]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:15 a:2147483647 p:1764250365 b:1547 snd:1547]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:1547 snd:1547 i:15 a:2147483647 p:228909720608385]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:15 a:2147483647 p:228909720620730 b:1547 snd:1547]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:1547 i:15 a:2147483647 p:848752412 b:1547]
+Instruction: set : b <- 848752412
+Set b to 848752412
+map[i:15 a:2147483647 p:848752412 b:848752412 snd:1547]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:15 a:2147483647 p:848752412 b:2412 snd:1547]
+Instruction: snd : b <- 0
+Playing Sound 2412
+map[i:15 a:2147483647 p:848752412 b:2412 snd:2412]
+Instruction: add : i <- -1
+Add i and -1
+map[i:14 a:2147483647 p:848752412 b:2412 snd:2412]
+Instruction: jgz : i <- -9
+map[i:14 a:2147483647 p:848752412 b:2412 snd:2412]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:14 a:2147483647 p:7218639264060 b:2412 snd:2412]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:2412 i:14 a:2147483647 p:946726493 b:2412]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:14 a:2147483647 p:122836815740257 b:2412 snd:2412]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:14 a:2147483647 p:122836815752602 b:2412 snd:2412]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:14 a:2147483647 p:751144202 b:2412 snd:2412]
+Instruction: set : b <- 751144202
+Set b to 751144202
+map[a:2147483647 p:751144202 b:751144202 snd:2412 i:14]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:751144202 b:4202 snd:2412 i:14 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 4202
+map[b:4202 snd:4202 i:14 a:2147483647 p:751144202]
+Instruction: add : i <- -1
+Add i and -1
+map[i:13 a:2147483647 p:751144202 b:4202 snd:4202]
+Instruction: jgz : i <- -9
+map[snd:4202 i:13 a:2147483647 p:751144202 b:4202]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:13 a:2147483647 p:6388481438010 b:4202 snd:4202]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:13 a:2147483647 p:1865071832 b:4202 snd:4202]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:4202 snd:4202 i:13 a:2147483647 p:241991205130168]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:13 a:2147483647 p:241991205142513 b:4202 snd:4202]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:4202 snd:4202 i:13 a:2147483647 p:2010380318]
+Instruction: set : b <- 2010380318
+Set b to 2010380318
+map[i:13 a:2147483647 p:2010380318 b:2010380318 snd:4202]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[snd:4202 i:13 a:2147483647 p:2010380318 b:318]
+Instruction: snd : b <- 0
+Playing Sound 318
+map[i:13 a:2147483647 p:2010380318 b:318 snd:318]
+Instruction: add : i <- -1
+Add i and -1
+map[i:12 a:2147483647 p:2010380318 b:318 snd:318]
+Instruction: jgz : i <- -9
+map[b:318 snd:318 i:12 a:2147483647 p:2010380318]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[a:2147483647 p:17098284604590 b:318 snd:318 i:12]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:19807176 b:318 snd:318 i:12 a:2147483647]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:318 i:12 a:2147483647 p:2569961278824 b:318]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:12 a:2147483647 p:2569961291169 b:318 snd:318]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:12 a:2147483647 p:1570849357 b:318 snd:318]
+Instruction: set : b <- 1570849357
+Set b to 1570849357
+map[i:12 a:2147483647 p:1570849357 b:1570849357 snd:318]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:12 a:2147483647 p:1570849357 b:9357 snd:318]
+Instruction: snd : b <- 0
+Playing Sound 9357
+map[i:12 a:2147483647 p:1570849357 b:9357 snd:9357]
+Instruction: add : i <- -1
+Add i and -1
+map[i:11 a:2147483647 p:1570849357 b:9357 snd:9357]
+Instruction: jgz : i <- -9
+map[i:11 a:2147483647 p:1570849357 b:9357 snd:9357]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:11 a:2147483647 p:13360073781285 b:9357 snd:9357]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:9357 snd:9357 i:11 a:2147483647 p:578013298]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:11 a:2147483647 p:74996647402202 b:9357 snd:9357]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:9357 snd:9357 i:11 a:2147483647 p:74996647414547]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:11 a:2147483647 p:76010366 b:9357 snd:9357]
+Instruction: set : b <- 76010366
+Set b to 76010366
+map[b:76010366 snd:9357 i:11 a:2147483647 p:76010366]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:76010366 b:366 snd:9357 i:11]
+Instruction: snd : b <- 0
+Playing Sound 366
+map[i:11 a:2147483647 p:76010366 b:366 snd:366]
+Instruction: add : i <- -1
+Add i and -1
+map[i:10 a:2147483647 p:76010366 b:366 snd:366]
+Instruction: jgz : i <- -9
+map[i:10 a:2147483647 p:76010366 b:366 snd:366]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:646468162830 b:366 snd:366 i:10 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:366 snd:366 i:10 a:2147483647 p:75585083]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:10 a:2147483647 p:9807088934167 b:366 snd:366]
+Instruction: add : p <- 12345
+Add p and 12345
+map[b:366 snd:366 i:10 a:2147483647 p:9807088946512]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:1678614310 b:366 snd:366 i:10]
+Instruction: set : b <- 1678614310
+Set b to 1678614310
+map[i:10 a:2147483647 p:1678614310 b:1678614310 snd:366]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:1678614310 b:4310 snd:366 i:10 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 4310
+map[snd:4310 i:10 a:2147483647 p:1678614310 b:4310]
+Instruction: add : i <- -1
+Add i and -1
+map[i:9 a:2147483647 p:1678614310 b:4310 snd:4310]
+Instruction: jgz : i <- -9
+map[i:9 a:2147483647 p:1678614310 b:4310 snd:4310]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:4310 snd:4310 i:9 a:2147483647 p:14276614706550]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:9 a:2147483647 p:143421294 b:4310 snd:4310]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:4310 i:9 a:2147483647 p:18608769475206 b:4310]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:9 a:2147483647 p:18608769487551 b:4310 snd:4310]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:823686296 b:4310 snd:4310 i:9]
+Instruction: set : b <- 823686296
+Set b to 823686296
+map[i:9 a:2147483647 p:823686296 b:823686296 snd:4310]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:823686296 b:6296 snd:4310 i:9 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 6296
+map[snd:6296 i:9 a:2147483647 p:823686296 b:6296]
+Instruction: add : i <- -1
+Add i and -1
+map[i:8 a:2147483647 p:823686296 b:6296 snd:6296]
+Instruction: jgz : i <- -9
+map[i:8 a:2147483647 p:823686296 b:6296 snd:6296]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:8 a:2147483647 p:7005451947480 b:6296 snd:6296]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:6296 i:8 a:2147483647 p:360290966 b:6296]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:8 a:2147483647 p:46747392547534 b:6296 snd:6296]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:8 a:2147483647 p:46747392559879 b:6296 snd:6296]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:8 a:2147483647 p:968531983 b:6296 snd:6296]
+Instruction: set : b <- 968531983
+Set b to 968531983
+map[a:2147483647 p:968531983 b:968531983 snd:6296 i:8]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:968531983 b:1983 snd:6296 i:8 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 1983
+map[snd:1983 i:8 a:2147483647 p:968531983 b:1983]
+Instruction: add : i <- -1
+Add i and -1
+map[i:7 a:2147483647 p:968531983 b:1983 snd:1983]
+Instruction: jgz : i <- -9
+map[i:7 a:2147483647 p:968531983 b:1983 snd:1983]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:7 a:2147483647 p:8237364515415 b:1983 snd:1983]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[b:1983 snd:1983 i:7 a:2147483647 p:1764729170]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:7 a:2147483647 p:228971845078330 b:1983 snd:1983]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:1983 i:7 a:2147483647 p:228971845090675 b:1983]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:7 a:2147483647 p:696196594 b:1983 snd:1983]
+Instruction: set : b <- 696196594
+Set b to 696196594
+map[i:7 a:2147483647 p:696196594 b:696196594 snd:1983]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:696196594 b:6594 snd:1983 i:7]
+Instruction: snd : b <- 0
+Playing Sound 6594
+map[i:7 a:2147483647 p:696196594 b:6594 snd:6594]
+Instruction: add : i <- -1
+Add i and -1
+map[i:6 a:2147483647 p:696196594 b:6594 snd:6594]
+Instruction: jgz : i <- -9
+map[p:696196594 b:6594 snd:6594 i:6 a:2147483647]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[b:6594 snd:6594 i:6 a:2147483647 p:5921152031970]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:6 a:2147483647 p:539617191 b:6594 snd:6594]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:6594 snd:6594 i:6 a:2147483647 p:70014790915059]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:70014790927404 b:6594 snd:6594 i:6]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:6 a:2147483647 p:381584263 b:6594 snd:6594]
+Instruction: set : b <- 381584263
+Set b to 381584263
+map[i:6 a:2147483647 p:381584263 b:381584263 snd:6594]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:6 a:2147483647 p:381584263 b:4263 snd:6594]
+Instruction: snd : b <- 0
+Playing Sound 4263
+map[i:6 a:2147483647 p:381584263 b:4263 snd:4263]
+Instruction: add : i <- -1
+Add i and -1
+map[i:5 a:2147483647 p:381584263 b:4263 snd:4263]
+Instruction: jgz : i <- -9
+map[i:5 a:2147483647 p:381584263 b:4263 snd:4263]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[p:3245374156815 b:4263 snd:4263 i:5 a:2147483647]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:4263 i:5 a:2147483647 p:526366198 b:4263]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:5 a:2147483647 p:68295487824302 b:4263 snd:4263]
+Instruction: add : p <- 12345
+Add p and 12345
+map[a:2147483647 p:68295487836647 b:4263 snd:4263 i:5]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[p:1212894753 b:4263 snd:4263 i:5 a:2147483647]
+Instruction: set : b <- 1212894753
+Set b to 1212894753
+map[b:1212894753 snd:4263 i:5 a:2147483647 p:1212894753]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[a:2147483647 p:1212894753 b:4753 snd:4263 i:5]
+Instruction: snd : b <- 0
+Playing Sound 4753
+map[i:5 a:2147483647 p:1212894753 b:4753 snd:4753]
+Instruction: add : i <- -1
+Add i and -1
+map[p:1212894753 b:4753 snd:4753 i:4 a:2147483647]
+Instruction: jgz : i <- -9
+map[b:4753 snd:4753 i:4 a:2147483647 p:1212894753]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:4 a:2147483647 p:10315669874265 b:4753 snd:4753]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:4753 i:4 a:2147483647 p:1305917724 b:4753]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[i:4 a:2147483647 p:169441518771276 b:4753 snd:4753]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:4 a:2147483647 p:169441518783621 b:4753 snd:4753]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:764068027 b:4753 snd:4753 i:4]
+Instruction: set : b <- 764068027
+Set b to 764068027
+map[i:4 a:2147483647 p:764068027 b:764068027 snd:4753]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[p:764068027 b:8027 snd:4753 i:4 a:2147483647]
+Instruction: snd : b <- 0
+Playing Sound 8027
+map[snd:8027 i:4 a:2147483647 p:764068027 b:8027]
+Instruction: add : i <- -1
+Add i and -1
+map[i:3 a:2147483647 p:764068027 b:8027 snd:8027]
+Instruction: jgz : i <- -9
+map[i:3 a:2147483647 p:764068027 b:8027 snd:8027]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:3 a:2147483647 p:6498398569635 b:8027 snd:8027]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:3 a:2147483647 p:113053813 b:8027 snd:8027]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[snd:8027 i:3 a:2147483647 p:14668619182937 b:8027]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:3 a:2147483647 p:14668619195282 b:8027 snd:8027]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:3 a:2147483647 p:1305886272 b:8027 snd:8027]
+Instruction: set : b <- 1305886272
+Set b to 1305886272
+map[i:3 a:2147483647 p:1305886272 b:1305886272 snd:8027]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:6272 snd:8027 i:3 a:2147483647 p:1305886272]
+Instruction: snd : b <- 0
+Playing Sound 6272
+map[i:3 a:2147483647 p:1305886272 b:6272 snd:6272]
+Instruction: add : i <- -1
+Add i and -1
+map[snd:6272 i:2 a:2147483647 p:1305886272 b:6272]
+Instruction: jgz : i <- -9
+map[i:2 a:2147483647 p:1305886272 b:6272 snd:6272]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:2 a:2147483647 p:11106562743360 b:6272 snd:6272]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:2 a:2147483647 p:1924804723 b:6272 snd:6272]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[b:6272 snd:6272 i:2 a:2147483647 p:249741488004527]
+Instruction: add : p <- 12345
+Add p and 12345
+map[i:2 a:2147483647 p:249741488016872 b:6272 snd:6272]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[snd:6272 i:2 a:2147483647 p:2024772654 b:6272]
+Instruction: set : b <- 2024772654
+Set b to 2024772654
+map[i:2 a:2147483647 p:2024772654 b:2024772654 snd:6272]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[i:2 a:2147483647 p:2024772654 b:2654 snd:6272]
+Instruction: snd : b <- 0
+Playing Sound 2654
+map[snd:2654 i:2 a:2147483647 p:2024772654 b:2654]
+Instruction: add : i <- -1
+Add i and -1
+map[i:1 a:2147483647 p:2024772654 b:2654 snd:2654]
+Instruction: jgz : i <- -9
+map[i:1 a:2147483647 p:2024772654 b:2654 snd:2654]
+Instruction: mul : p <- 8505
+Mul p and 8505
+map[i:1 a:2147483647 p:17220691422270 b:2654 snd:2654]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[a:2147483647 p:20056977 b:2654 snd:2654 i:1]
+Instruction: mul : p <- 129749
+Mul p and 129749
+map[p:2602372708773 b:2654 snd:2654 i:1 a:2147483647]
+Instruction: add : p <- 12345
+Add p and 12345
+map[snd:2654 i:1 a:2147483647 p:2602372721118 b:2654]
+Instruction: mod : p <- 2147483647
+Mod from p and 2147483647
+map[i:1 a:2147483647 p:1770024601 b:2654 snd:2654]
+Instruction: set : b <- 1770024601
+Set b to 1770024601
+map[i:1 a:2147483647 p:1770024601 b:1770024601 snd:2654]
+Instruction: mod : b <- 10000
+Mod from b and 10000
+map[b:4601 snd:2654 i:1 a:2147483647 p:1770024601]
+Instruction: snd : b <- 0
+Playing Sound 4601
+map[a:2147483647 p:1770024601 b:4601 snd:4601 i:1]
+Instruction: add : i <- -1
+Add i and -1
+map[i:0 a:2147483647 p:1770024601 b:4601 snd:4601]
+Instruction: jgz : i <- -9
+map[p:1770024601 b:4601 snd:4601 i:0 a:2147483647]
+Instruction: jgz : a <- 3
+map[snd:4601 i:0 a:2147483647 p:1770024601 b:4601]
+Instruction: set : f <- 0
+Set f to 0
+map[i:0 a:2147483647 p:1770024601 b:4601 snd:4601 f:0]
+Instruction: set : i <- 126
+Set i to 126
+map[i:126 a:2147483647 p:1770024601 b:4601 snd:4601 f:0]
+Instruction: rcv : a <- 0
+Frequency of last played Sound 4601
+map[i:126 a:2147483647 p:1770024601 b:4601 snd:4601 f:0]
